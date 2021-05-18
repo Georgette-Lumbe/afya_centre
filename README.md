@@ -1,59 +1,342 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Table of contents
 
-Welcome USER_NAME,
+Introduction
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+User Experience
 
-## Gitpod Reminders
+    •	Ideal User Demographic
+    •	User Stories
+    •	Development Planes
+    •	Design
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Features
 
-`python3 -m http.server`
+    •	Existing & Design Features
+    •	Features to Implement in the future
 
-A blue button should appear to click: _Make Public_,
+Testing
 
-Another blue button should appear to click: _Open Browser_.
+    •	Validator testing
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+Issues and Bugs
 
-A blue button should appear to click: _Make Public_,
+Technologies Used
 
-Another blue button should appear to click: _Open Browser_.
+    •	Main Languages Used
+    •	Libraries, Frameworks & Programs Used
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+Deployment
 
-To log into the Heroku toolbelt CLI:
+    •	Deploying on GitHub Pages
+    •	Forking the Repository
+    •	Creating a Clone
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Credits
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+    •	Content
+    •	Media
+    •	Code
 
-## Updates Since The Instructional Video
+Acknowledgements
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Introduction
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+WELCOME TO AFYA CENTRE!
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+Afya Centre is an informative website that focuses on human wellness and offers many types of services and treatments to help people maintain their physical health and beauty. Afya Centre aims to guide man into a better lifestyle with different experienced coaches who provide advice, information about health and prevention of illness.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+The focus of this website is the registration of people who need us. As everyone deserves to feel good, Afya Centre is open to everyone, young and old. 
+This is the first of five Milestone Projects that the developer must complete during his Full Stack Web Development at The Code Institute. The main requirements were to make a responsive and static website with a minimum of three pages using primarily HTML5 and CSS3.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+User Experience
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+Ideal User Demographic
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The ideal user of this website is:
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    •	Potential Bookers
+    •	New Bookers
+    •	Current Clients
+    •	Old Clients
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+User Stories
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+As a potential booker:
 
----
+1. I want to navigate easily through the relevant information:
 
-Happy coding!
+    • Contact details
+    • Opening & closing hours
+    • Services & Treatments
+    • Coaches
+    • Book page
+
+2. I want to navigate to the centre’s social media links
+3. I would like to know what advantages I will have once I book
+4. I would like to be able to see an overview of what is happening in the centre in photos or video, to get an idea.
+
+As a new booker:
+
+1. I want to navigate easily through the centre's information
+2. I want to learn more about the centre and the way they do things
+3. I want to be familiar with the centre and with the coach who will accompany me during my sessions
+4. I want to easily navigate to the centre’s social media links to keep up to date with the latest news and releases.
+
+As a current client:
+
+1. I want to navigate to information about upcoming services.
+2. I want to stay up to date on new offers and promotions from the Centre so that I can take advantage of them.
+
+As an old client:
+
+1. I want to navigate through the centre’s social media links to see the latest and upcoming news, and releases.
+
+Development planes
+
+To create an informative and easy-to-navigate site, Afya Centre worked with its developer to discern the required functionality of the site and how it would respond to the stories and expectations of users, as described above.
+
+Strategy
+
+The website will be focus on the following three categories of target audiences:
+
+1. Demographic
+    • 18 years and over
+    • People of the 3rd and 4th age
+    • All residents and Irish citizens
+
+2. Position
+
+    • New clients
+    • Current clients
+    • Wellness lovers
+    • People in need of care
+    • Careless people
+    • Companies (for their employees)
+
+3. Anthropology:
+
+    • Types of people:
+        o Hard worker
+        o Extraverted
+        o Careful people
+        o People with aches and pains
+        o People who want to lose weight
+        o People who want to feel better
+        o People who want to maintain a healthy lifestyle
+        o People who are willing to invest in their well-being
+        o People who are not comfortable in their own skin/body
+
+    • Activities:
+        o Workers in all fields
+        o sportsmen and women
+
+The website needs to facilitate the user to:
+
+    • Retrieve the desired information:
+        o The list of services and treatments provided
+        o The price lists
+        o Some pictures of the services provided
+        o The location and the opening & closing hours of the centre
+        o The benefits
+        o Contact information 
+        o Find the centre on these social platforms
+        o Be able to see the different coaches and their specialities
+
+     • Book 
+
+The website needs to facilitate the centre to:
+
+    • Continue to have an online presence
+    • Provide a comprehensive, understandable, and informative website for users to find relevant information such as: services & treatments, photos
+    • Collect as much user data as possible (name, email address & phone number) in order to serve them better and to keep them informed 
+    • Provide a communication channel for new and existing customers (social links - easily accessible on the site)
+    • Get more bookers.
+
+Scope
+
+There are two categories of requirements that were defined in order to clearly identify what needed to be done to align the functionality with the previously defined strategy.
+
+1.	Content Requirements:
+
+    • The user will be looking for:
+        o The different services and treatments offered
+        o The coaches available
+        o Information about price
+        o The location of the centre
+        o Photos and video
+        o How to book
+        o Social links
+        o Contact details
+
+2.	Functionality Requirements:
+
+    • The user will be able to:
+        o Stay connected 
+        o Find links to external sites in order to get more information, to see more photos, videos, and testimonials
+        o Navigate easily through the site to find the information they want.
+        o Contact the centre directly through the communication channel of your choice.
+        o Find the route to the centre (all locals).
+
+Structure
+
+The website has been organised in a hierarchical tree structure to allow users to navigate the site easily and efficiently, with the following results:
+
+Skeleton
+
+Wireframe mock-ups were created in a balsamiq workspace with providing a positive user experience in mind.
+
+Design
+
+1. Typography
+
+A combination of Roboto and Lato fonts is used throughout the website, with Sans Serif as a back-up font in case of import failure.
+For elements that needed to be highlighted, bold, italic, and underlined were used with the aim of emphasising these elements.
+
+2.	Colour scheme
+
+The main colours used on the site are a mixture of blue and green, with purple accents.
+The chosen (cool) colour palette reflects peace, is appreciated for its restful qualities, and evokes calmness and freshness. Cool colours have a very soft effect and are generally considered to be the colours of the night. They are the colours of nature, water and inspire sobriety, calm and relaxation.
+
+3.	Imagery
+
+The selected imagery and video are authentic and aesthetically consistent, showing an overview of what is happening at Afya Centre. The imagery is eye-catching and visually represents the theme of the website.
+
+All images provide alternative text for use in the event that the element cannot be rendered. The template used to provide alternative text for the background images can be found here.
+
+FEATURES
+
+Existing & Design features
+
+HOME PAGE
+
+1. Header Logo & Navigation Bar
+
+    • The website has a consistent responsive navigation system that is found on every page and allows users to navigate easily from page to page without complications
+    • The header contains a conventionally placed logo at the top left of the page (redirects the user to the home page with one click) and a navigation bar at the top right of the page.
+
+IMAGE
+
+2. Landing page image
+
+    • The landing includes an animated photograph with text overlay in the blue square to allow the user to directly see the benefits and discounts of the Afya Centre, this makes the section attractive for the user.
+
+    IMAGE
+
+3. Services section
+
+    • This section will allow the user to see all services, treatments, and coaches that the Afya Centre offers. 
+    • This section is represented by three rectangular boxes of different colours (blue, green, and purple) superimposed.
+
+IMAGE
+
+4. Location section
+
+    • This section will allow the user to see all the local of the Afya Centre and the opening & closing hours for all the local.
+    • The where to find us section, it represented by four square boxes (three first for locals and last one for hours) with the same background image and when clicking on it, it brings you to the map (external link).
+
+IMAGE
+
+5. Footer section
+
+    • This section provides the email address, phone number and links to the main Afya centre social pages, just click on the icon to be redirected to the platform of the centre of your choice
+
+    • This section is on every page of the website and allows customers to stay in touch with the centre via social media, email, and telephone. 
+
+IMAGE
+
+ABOUT US PAGE
+
+6. Video section
+
+    • This section will provide the view of Afya Centre.
+
+IMAGE
+
+7. Information section
+
+    • This section will provide the main information about the Afya Centre such as the purpose and what they do so the user can know a more about the centre.
+    • On the right side, there is a video which shows an overview of the centre and the user can see and control it all along.
+
+IMAGE
+
+8. Services & Treatments section
+
+    • These sections will provide the user with supporting images, so the user will be able to easily see what and how the services & treatments looks like.
+    • These sections will also provide the price of each services & treatments.
+    • Services & Treatments section is represented by five square boxes of images each with the price under each boxes of images.
+
+IMAGE
+
+9. Coach section 
+
+    • This section will allow the user to see all Afya Centre coaches, their names, specialities, and years of experience. This will increase the user's confidence as he will already know who they are working with.
+    • The Coach section is represented by four square boxes of coaches’ pictures with their name, specialities, and years of experience below.
+
+IMAGE
+
+BOOK NOW PAGE
+
+    • This page will allow the user to make a reservation at the Afya Centre for the chosen treatments. 
+
+    • The user will be asked to provide:
+        o Full name, email address, and telephone number, 
+        o Gender and age
+        o Date and time
+        o Services and treatment required
+
+    • The user will be able to specify if he wants to have a coach
+    • Finally, the user will be asked to book his reservation.
+    • This section is represented by a background-image with text overlay and the call-to-action button at the bottom.
+
+IMAGE
+
+Features to implement in the future
+
+• Blog and testimonial pages
+    o Features: add a blog page and a testimonial page, where the user can experience the atmosphere of Afya centre without having set foot there, can see the feelings of others and some advice.
+    o Reason for not featuring in this release: It is advisable to make at least three pages for this project
+
+Testing
+
+Validator testing
+
+Issues and Bugs
+
+Technologies used 
+
+Main Languages Used
+    • HTLM5
+    • CSS3
+
+Libraries, Framework & Programs Used
+
+    • Balsamiq was used to create the wireframe during the design and reflective phase of the project.
+    • Google fonts was used to import the fonts “…”, “…” and “…” into the style.css file. These fonts were used all over the project.
+    • Fonts awesome was used on all pages throughout the website to import icons for the user experience purposes for example social media links, phone number and email address.
+    • Git was used for version control by using the GitPod terminal to commit to Git and push to GitHub.
+    • GitHub was used to store the project after pushing.
+    • Am I Responsive? was used to view the responsive design throughout the process and to generate image mock-ups for use.
+
+Deployment
+
+Deploying on GitHub pages
+Forking the Repository
+Creating a clone
+
+Credit
+
+Content
+    • The text used for the About Us page is sourced from Healthline.
+
+Media
+    • Some images were sourced from Unsplash and others from Pexels.
+    • The video user for the About Us page is sourced from Pexels.
+
+Code
+    • The developer has consulted some websites in order to better understand and use the code for this site. Below are the sites used:
+
+        o W3Schools
+        o Stack Overflow
+        
+Acknowledgements
+
