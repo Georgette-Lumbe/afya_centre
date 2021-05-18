@@ -118,4 +118,12 @@ h2 {
     position: absolute;
 }
 
-/*All offers section*/
+/*Location, Opening & Closing Hours section*/
+#location {
+    background-image: url('../images/location-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
