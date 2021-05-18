@@ -13,6 +13,7 @@ body {
     color: #3a3a3a;
 }
 
+/*Headings and logo*/
 h1,
 h2 {
     font-family: Pangolin, sans-serif;
@@ -25,4 +26,36 @@ h2 {
     font-size: 300%;
     float: left;
     margin-left: 20px;
+}
+
+/*Navigation links*/
+#menu {
+    font-size: 120%;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    float: right;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: left;
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
