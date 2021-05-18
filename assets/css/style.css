@@ -12,3 +12,17 @@ body {
     font-weight: 300;
     color: #3a3a3a;
 }
+
+h1,
+h2 {
+    font-family: Pangolin, sans-serif;
+    text-transform: uppercase;
+    color: #252525;
+    letter-spacing: 3px;
+}
+
+#logo {
+    font-size: 300%;
+    float: left;
+    margin-left: 20px;
+}
