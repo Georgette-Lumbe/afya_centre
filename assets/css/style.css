@@ -118,6 +118,8 @@ h2 {
     position: absolute;
 }
 
+/*All offers section*/
+
 /*Location, opening & closing hours section*/
 #location {
     background-image: url('../images/location-background.jpg');
@@ -140,7 +142,7 @@ h2 {
     box-sizing: border-box;
 }
 
-#heading {
+#where {
     font-size: 250%;
     text-align: center;
     text-decoration: underline;
