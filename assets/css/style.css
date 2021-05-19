@@ -205,3 +205,31 @@ h2 {
 #location h2 {
     color: #fafafa;
 }
+
+/*footer*/
+
+footer {
+    height: 200px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 1em;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+
+}
+
+#contact,
+#contact h2 {
+    color: #fafafa;
+    font-size: 100%;
+}
+
+#social-media i {
+    font-size: 160%;
+    color: #3a3a3a;
+}
+
+#social-media li {
+    list-style-type: none;
+}
