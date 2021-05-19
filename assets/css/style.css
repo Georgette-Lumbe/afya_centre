@@ -243,3 +243,12 @@ footer {
     list-style-type: none;
     padding: 10px;
 }
+
+/*About Us page*/
+
+/*Video*/
+
+#video {
+    width: 100%;
+    height: 300px;
+}
