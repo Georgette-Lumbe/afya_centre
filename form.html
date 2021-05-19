@@ -31,7 +31,108 @@
             </ul>
         </nav>
     </header>
+    <form action="https://formdump.afyacentre.net" method="POST">
+        <fieldset>
+            <legend>Your details</legend>
 
+            <div class="name">
+                <label for="user" class="input">Full Name:</label>
+                <input type="text" id="user" name="fullname" placeholder="Jim Doe" required>
+            </div>
+
+            <div class="email">
+                <label for="email" class="input">Email:</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+
+            <div>
+                <label for="gender" class="drop">Gender:</label>
+                <select name="gender" id="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+
+                <label for="age" class="drop">Age:</label>
+                <select name="age" id="age" required>
+                    <option value="under-20">Under 20</option>
+                    <option value="20">20-29</option>
+                    <option value="30">30-39</option>
+                    <option value="40">40-49</option>
+                    <option value="50">50-59</option>
+                    <option value="60+">60+</option>
+                </select>
+            </div>
+
+            <div class="date">
+                <label for="date">Date:</label>
+                <select name="date" id="date" required>
+                    <option value="day1">Thursday</option>
+                    <option value="day2">Friday</option>
+                    <option value="day3">Saturday</option>
+                    <option value="day4">Sunday</option>
+                </select>
+            </div>
+
+            <div class="time">
+                <label for="hours">Hours:</label>
+                <select name="time" id="hours" required>
+                    <option value="time1">9am - 10am</option>
+                    <option value="time2">11am - 12pm</option>
+                    <option value="time3">1pm - 2pm</option>
+                    <option value="time4">3pm - 4pm</option>
+                    <option value="time5">5pm - 6pm</option>
+                    <option value="time6">7pm - 8pm</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Services & Treatments</legend>
+
+            <div services-checkbox>
+                <input type="checkbox" id="yoga-checkbox" name="yoga">
+                <label for="yoga-checkbox">Yoga</label>
+
+                <input type="checkbox" id="sauna-checkbox" name="sauna">
+                <label for="sauna-checkbox">Sauna</label>
+
+                <input type="checkbox" id="massage-checkbox" name="massage">
+                <label for="massage-checkbox">Massage</label>
+
+                <input type="checkbox" id="gym-checkbox" name="gym&fitness">
+                <label for="gym-checkbox"> Gym & Fitness</label>
+            </div>
+
+            <div class="treatments-checkbox">
+                <input type="checkbox" id="head-checkbox" name="headtreatment">
+                <label for="head-checkbox">Head Treatment</label>
+
+                <input type="checkbox" id="body-checkbox" name="bodytreatment">
+                <label for="body-checkbox">Body Treatment</label>
+
+                <input type="checkbox" id="facial-checkbox" name="bodytreatment">
+                <label for="facial-checkbox">Facial Treatment</label>
+
+                <input type="checkbox" id="manicure-checkbox" name="manicure-pedicure">
+                <label for="manicure-checkbox">Manicure & Pedicure</label>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Coach</legend>
+            <div>
+                <label for="coach">Do you need a coach?</label>
+                <input id="coach" list="coaches" name="coach" required>
+                <datalist id="coaches">
+                    <option value="Wellness Coach"></option>
+                    <option value="Beauty Coach"></option>
+                    <option value="Nutrition Consulting"></option>
+                    <option value="Personal trainer"></option>
+                </datalist>
+            </div>
+        </fieldset>
+    </form>
     <footer>
         <div id="contact">
             <h2>Contact Information</h2>
