@@ -224,6 +224,16 @@ footer {
     font-size: 100%;
 }
 
+#contact h2 {
+    text-decoration: underline;
+}
+
+#social-media ul {
+    display: flex;
+    margin-left: 580px;
+    margin-top: 2px;
+}
+
 #social-media i {
     font-size: 160%;
     color: #3a3a3a;
@@ -231,4 +241,5 @@ footer {
 
 #social-media li {
     list-style-type: none;
+    padding: 10px;
 }
