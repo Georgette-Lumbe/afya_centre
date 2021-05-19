@@ -297,3 +297,12 @@ img {
     text-decoration: underline;
     margin: 30px 0 0 10px;
 }
+
+/* Our coaches section*/
+
+#coaches h2 {
+    font-size: 200%;
+    text-align: center;
+    text-decoration: underline;
+    margin: 30px 0 0 10px;
+}
