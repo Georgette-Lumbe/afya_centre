@@ -306,3 +306,129 @@ img {
     text-decoration: underline;
     margin: 30px 0 0 10px;
 }
+
+/* Form page*/
+
+.book-section {
+    clear: left;
+    background: url('../images/form-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+}
+
+.book-section h2{
+    color: #fafafa;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    font-family: Raleway, sans-serif;
+    max-width: 60%;
+    height: 600px;
+    padding: 30px;
+    margin: 25px auto;
+    background-color: rgba(60, 60, 60, .6);
+    color: #fafafa;
+    overflow: hidden;
+    left: 5%;
+
+    position: absolute;
+}
+
+fieldset {
+    border: none;
+    margin: 30px;
+}
+
+fieldset>div {
+    margin-top: 10px;
+}
+
+input[type=text],
+input[type=email],
+input[list=coaches] {
+    height: 30px;
+    width: 55%;
+    padding-left: 10px;
+    margin: 0 auto;
+
+    color: #fafafa;
+    border: 2px solid #fafafa;
+    background: transparent;
+}
+
+/*overrides css above*/
+input[list=coaches] {
+    width: 40%;
+}
+
+input[type=email] {
+    margin-left: 32px;
+}
+
+legend {
+    font-size: 100%;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: 600;
+    margin: 20px 0 10px 0;
+}
+
+label {
+    margin: 10px 15px 5px 0;
+}
+
+select {
+    height: 30px;
+    width: 17%;
+    margin: 0 auto;
+    padding-left: 10px;
+
+    color: #3a3a3a;
+    background: transparent;
+    border: 2px solid #fafafa;
+}
+
+#gender {
+    margin-left: 20px;
+}
+
+#date {
+    margin-left: 40px;
+}
+
+#age {
+    margin-left: 15px;
+}
+
+#side {
+    margin-left: 80px;
+}
+
+.input,
+.drop {
+    display: inline-block;
+}
+
+.book-button {
+    margin-top: 20px;
+    margin-left: 40%;
+    padding: 15px 32px 15px 32px;
+    background-color: #38761d;
+    color: #fafafa;
+    font-weight: 600;
+    font-size: 100%;
+
+    border-radius: 10px;
+
+    text-align: center;
+    display: inline-block;
+}
+
+.book-button:hover {
+    background-color: #fafafa;
+    color: #38761d;
+}
