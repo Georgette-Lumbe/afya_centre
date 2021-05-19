@@ -270,13 +270,13 @@ footer {
     margin: 30px 0;
 }
 
-/*Our services section*/
+/* Our services section */
 
 #services h2 {
     font-size: 200%;
     text-align: center;
     text-decoration: underline;
-    margin: 30px 0;
+    margin: 10px 0;
 }
 
 img {
@@ -287,4 +287,13 @@ img {
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
+}
+
+/* Our treatments section */
+
+#treatments h2 {
+    font-size: 200%;
+    text-align: center;
+    text-decoration: underline;
+    margin: 30px 0 0 10px;
 }
