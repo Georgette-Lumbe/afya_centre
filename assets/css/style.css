@@ -215,13 +215,12 @@ footer {
     padding: 1em;
     bottom: 0;
     right: 0;
-    z-index: 3;
 
 }
 
 #contact,
 #contact h2 {
-    color: #fafafa;
+    color: #3a3a3a;
     font-size: 100%;
 }
 
