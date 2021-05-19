@@ -166,7 +166,7 @@ h2 {
 }
 
 #what {
-    font-size: 250%;
+    font-size: 200%;
     text-align: center;
     text-decoration: underline;
     margin: 30px 0;
@@ -196,7 +196,7 @@ h2 {
 }
 
 #where {
-    font-size: 250%;
+    font-size: 200%;
     text-align: center;
     text-decoration: underline;
     margin: 30px 0;
@@ -268,4 +268,23 @@ footer {
 
 #information h4 {
     margin: 30px 0;
+}
+
+/*Our services section*/
+
+#services h2 {
+    font-size: 200%;
+    text-align: center;
+    text-decoration: underline;
+    margin: 30px 0;
+}
+
+img {
+    width: 25%;
+    height: 250px;
+    float: left;
+    padding: 10px 0 0 15px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
 }
