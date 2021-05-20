@@ -14,6 +14,7 @@ body {
 }
 
 /*Headings and logo*/
+
 h1,
 h2 {
     font-family: Pangolin, sans-serif;
@@ -112,7 +113,7 @@ h2 {
 
     background-color: rgba(99, 161, 219, .9);
 
-    bottom: 30px;
+    bottom: 150px;
     right: 30px;
 
     position: absolute;
@@ -126,7 +127,7 @@ h2 {
     background-size: cover;
     background-attachment: fixed;
     width: 100%;
-    height: 600px;
+    height: 400px;
     overflow: hidden;
 }
 
@@ -136,7 +137,7 @@ h2 {
     height: 300px;
     float: left;
     padding: 30px 0 0 10px;
-    margin-top: 150px;
+    margin-top: 30px;
     text-align: center;
     box-sizing: border-box;
     border: 1px solid;
@@ -181,6 +182,8 @@ h2 {
     background-size: cover;
     width: 100%;
     overflow: hidden;
+
+    margin-bottom: 30px;
 }
 
 #location div {
@@ -193,6 +196,7 @@ h2 {
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
+
 }
 
 #where {
@@ -211,7 +215,7 @@ h2 {
 footer {
     height: 200px;
     text-align: center;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 1em;
     bottom: 0;
     right: 0;
@@ -228,9 +232,32 @@ footer {
     text-decoration: underline;
 }
 
+#mailto a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#mailto a:hover {
+    color: #fafafa;
+}
+
+#phone a {
+    text-decoration: underline;
+    color: inherit;
+}
+
+#phone a:hover {
+    color: #fafafa;
+}
+
+/* Fellowes on slack (width: fit-content, display: flex)*/
+#social-media {
+    width: fit-content;
+    margin: auto;
+}
+
 #social-media ul {
     display: flex;
-    margin-left: 580px;
     margin-top: 2px;
 }
 
@@ -242,6 +269,10 @@ footer {
 #social-media li {
     list-style-type: none;
     padding: 10px;
+}
+
+#social-media i:hover {
+    color: #fafafa;
 }
 
 /*About Us page*/
