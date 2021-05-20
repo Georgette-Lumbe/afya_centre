@@ -247,9 +247,11 @@ footer {
 /*About Us page*/
 
 /*Video*/
+
 #video {
-    height: 300px;
-    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+    overflow: hidden;
 }
 
 /*Text information section*/
