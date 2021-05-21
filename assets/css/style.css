@@ -527,3 +527,16 @@ select {
     background-color: #fafafa;
     color: #38761d;
 }
+
+/*Thank you message*/
+
+#message {
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 275px;
+    padding-top: 100px;
+    background-color: rgba(99, 161, 219, .2);
+
+    overflow: hidden;
+}
