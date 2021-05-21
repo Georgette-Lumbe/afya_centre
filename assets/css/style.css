@@ -299,7 +299,7 @@ footer {
     margin: 30px 0;
 }
 
-#information h4 {
+#information h3 {
     margin: 30px 0;
 }
 
@@ -403,6 +403,20 @@ footer {
     .right {
         display: none;
     }
+}
+
+/* Coaches picture section*/
+
+#coaches h2 {
+    font-size: 200%;
+    text-align: center;
+    text-decoration: underline;
+    margin: 30px 0;
+}
+
+img {
+    width: 25%;
+    height: 250px;
 }
 
 /* Form page*/
