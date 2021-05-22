@@ -13,6 +13,18 @@ body {
     color: #3a3a3a;
 }
 
+/* header */
+
+/* Fix and style the header/help from stack overflow*/
+#header {
+    position: fixed;
+    top: 0;
+    background-color: #ffffff;
+    width: 100%;
+    z-index: 2000;
+    height: 70px;
+}
+
 /*Headings and logo*/
 
 h1,
