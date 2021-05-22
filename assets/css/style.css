@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 
 body {
@@ -426,9 +427,10 @@ footer {
     margin: 30px 0;
 }
 
-img {
+.column {
     width: 25%;
-    height: 250px;
+    padding: 5px;
+    float: left;
 }
 
 /* Form page*/
