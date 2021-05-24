@@ -443,7 +443,7 @@ img {
     box-sizing: border-box;
 }
 
-/* Form page*/
+/* Book now page*/
 
 .book-section {
     clear: left;
@@ -463,7 +463,7 @@ img {
 
 form {
     font-family: Raleway, sans-serif;
-    max-width: 60%;
+    width: 40%;
     height: 600px;
     padding: 30px;
     margin: 30px auto;
@@ -526,6 +526,14 @@ select {
     border: 2px solid #fafafa;
 }
 
+.services-checkbox, .treatments-checkbox {
+    float: left;
+}
+
+.treatments-checkbox {
+    margin-left: 100px;
+}
+
 #gender {
     margin-left: 20px;
 }
@@ -538,10 +546,7 @@ select {
     margin-left: 15px;
 }
 
-#side1 {
-    margin-left: 97px;
-}
-
+#side1,
 #side2 {
     margin-left: 97px;
 }
@@ -595,7 +600,7 @@ select {
     }
 
     #logo {
-        font-size: 250%;
+        font-size: 200%;
         margin-left: 30px;
         margin-bottom: 0;
     }
@@ -608,6 +613,7 @@ select {
         margin-bottom: 20px;
         line-height: 25px;
         font-size: 80%;
+        text-transform: none;
     }
 
     #cover-text {
@@ -690,14 +696,71 @@ select {
     .description {
         display: none;
     }
-}
 
+    /*Book now page*/
+
+    .book-section {
+        height: 1050px;
+        width: 100%;
+    }
+
+    form {
+        width: 100%;
+        height: 1030px;
+        padding: 0;
+    }
+
+    input[type=text],
+    input[type=email],
+    input[list=coaches] {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .input,
+    .drop {
+        display: block;
+    }
+
+    input[type=email] {
+        margin-left: 0;
+    }
+
+    .services-checkbox, .treatments-checkbox {
+        float: none;
+    }
+    
+    .treatments-checkbox {
+        margin-left: 0;
+    }
+
+    #gender,
+    #date,
+    #age,
+    #hours,
+    #side1,
+    #side2 {
+        margin-left: 0;
+    }
+
+    #age,
+    #date,
+    #gender,
+    #hours {
+        width: 100%;
+    }
+
+    .book-button {
+        right: 0;
+    }
+}
 
 /* Medium devices (landscape tablets, from 768px to 991px ) */
 @media only screen and (max-width: 991px) {
+
     /*Home Page*/
     #logo {
-        font-size: 280%;
+        font-size: 200%;
     }
 
     #menu {
@@ -715,6 +778,7 @@ select {
         height: 150px;
         padding: 0;
     }
+
     /*About us Page*/
     #reviews {
         margin-left: 80px;
