@@ -764,7 +764,7 @@ select {
     }
 
     #cover-text {
-        bottom: 150px;
+        bottom: 400px;
         right: 5px;
     }
 
@@ -827,10 +827,10 @@ select {
     }
 }
 
-/* Large devices (laptops/desktops, from 1025px to 1600px) */
+/* Extra Large devices (laptops/desktops, from 1025px to 1600px) */
 @media only screen and (max-width: 1600px) {
     #cover-text {
-        bottom: 100px;
+        bottom: 350px;
         right: 5px;
     }
 }
