@@ -154,7 +154,7 @@ h2 {
     box-sizing: border-box;
     border: 1px solid;
     font-family: Raleway, sans-serif;
-    font-size: 140%;
+    font-size: 130%;
 
 }
 
@@ -208,7 +208,6 @@ h2 {
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
-
 }
 
 #where {
@@ -601,7 +600,7 @@ select {
 
 /* Media queries*/
 
-/* Extra small devices (phones, 767px and down) */
+/* Small devices (phones, 767px and down) */
 @media only screen and (max-width: 767px) {
     #header {
         height: 110px;
@@ -667,8 +666,24 @@ select {
 }
 
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+/* Medium devices (landscape tablets, from 768px to 991px ) */
+@media only screen and (max-width: 991px) {
+    #menu {
+        font-size: 110%;
+    }
+
+    #cover-text {
+        bottom: 10px;
+        right: 5px;
+    }
+
+    #location>div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}
