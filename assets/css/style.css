@@ -450,13 +450,13 @@ img {
     background: url('../images/form-background.jpg');
     background-size: cover;
     background-position: center;
-    height: 700px;
+    height: 750px;
     width: 100%;
     margin-top: 70px;
 }
 
 .book-section h2 {
-    color: #fafafa;
+    color: #3a3a3a;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -464,11 +464,11 @@ img {
 form {
     font-family: Raleway, sans-serif;
     width: 40%;
-    height: 600px;
+    height: 680px;
     padding: 30px;
     margin: 30px auto;
-    background-color: rgba(60, 60, 60, .8);
-    color: #fafafa;
+    background-color: rgba(224, 216, 216, .6);
+    color: #3a3a3a;
     overflow: hidden;
 }
 
@@ -489,14 +489,14 @@ input[list=coaches] {
     padding-left: 10px;
     margin: 0 auto;
 
-    color: #fafafa;
-    border: 2px solid #fafafa;
+    color: #3a3a3a;
+    border: 2px solid #3a3a3a;
     background: transparent;
 }
 
 /*overrides css above*/
 input[list=coaches] {
-    width: 43%;
+    width: 39%;
 }
 
 input[type=email] {
@@ -521,12 +521,13 @@ select {
     margin: 0 auto;
     padding-left: 10px;
 
-    color: #fafafa;
+    color: #3a3a3a;
     background: transparent;
-    border: 2px solid #fafafa;
+    border: 2px solid #3a3a3a;
 }
 
-.services-checkbox, .treatments-checkbox {
+.services-checkbox,
+.treatments-checkbox {
     float: left;
 }
 
@@ -535,20 +536,23 @@ select {
 }
 
 #gender {
-    margin-left: 20px;
+    margin-left: 21px;
+    width: 25%;
+}
+
+#hours {
+    margin-left: 29px;
+    width: 25%;
 }
 
 #date {
     margin-left: 40px;
+    width: 25%;
 }
 
 #age {
-    margin-left: 15px;
-}
-
-#side1,
-#side2 {
-    margin-left: 97px;
+    margin-left: 45px;
+    width: 25%;
 }
 
 .input,
@@ -726,10 +730,11 @@ select {
         margin-left: 0;
     }
 
-    .services-checkbox, .treatments-checkbox {
+    .services-checkbox,
+    .treatments-checkbox {
         float: none;
     }
-    
+
     .treatments-checkbox {
         margin-left: 0;
     }
@@ -779,9 +784,15 @@ select {
         padding: 0;
     }
 
-    /*About us Page*/
+    /* About us Page */
     #reviews {
         margin-left: 80px;
+    }
+
+    /*Book now Page*/
+    #gender,
+    #hours {
+        width: 55%;
     }
 }
 
