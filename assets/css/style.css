@@ -532,7 +532,7 @@ select {
 }
 
 .treatments-checkbox {
-    margin-left: 100px;
+    margin-left: 0;
 }
 
 #gender {
@@ -704,13 +704,13 @@ select {
     /*Book now page*/
 
     .book-section {
-        height: 1050px;
+        height: 920px;
         width: 100%;
     }
 
     form {
         width: 100%;
-        height: 1030px;
+        height: 900px;
         padding: 0;
     }
 
@@ -723,7 +723,7 @@ select {
 
     .input,
     .drop {
-        display: block;
+        display: inline-block;
     }
 
     input[type=email] {
@@ -739,20 +739,11 @@ select {
         margin-left: 0;
     }
 
-    #gender,
-    #date,
-    #age,
-    #hours,
-    #side1,
-    #side2 {
-        margin-left: 0;
-    }
-
     #age,
     #date,
     #gender,
     #hours {
-        width: 100%;
+        width: 35%;
     }
 
     .book-button {
@@ -790,9 +781,22 @@ select {
     }
 
     /*Book now Page*/
+    .book-section {
+        height: 960px;
+    }
+
+    form {
+        height: 900px;
+    }
+    
+    #age,
+    #date,
     #gender,
     #hours {
         width: 55%;
+    }
+    .input[type=coaches] {
+        width: 40%;
     }
 }
 
