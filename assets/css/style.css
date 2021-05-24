@@ -695,8 +695,13 @@ select {
 
 /* Medium devices (landscape tablets, from 768px to 991px ) */
 @media only screen and (max-width: 991px) {
+    /*Home Page*/
+    #logo {
+        font-size: 280%;
+    }
+
     #menu {
-        font-size: 110%;
+        font-size: 90%;
     }
 
     #cover-text {
@@ -709,6 +714,10 @@ select {
         clear: both;
         height: 150px;
         padding: 0;
+    }
+    /*About us Page*/
+    #reviews {
+        margin-left: 80px;
     }
 }
 
