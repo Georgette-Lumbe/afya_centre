@@ -665,7 +665,7 @@ select {
     /*About Us Page*/
     #video {
         width: 100%;
-        height: auto;
+        height:auto;
     }
 
     #information h2 {
@@ -764,7 +764,7 @@ select {
     }
 
     #cover-text {
-        bottom: 10px;
+        bottom: 150px;
         right: 5px;
     }
 
@@ -777,7 +777,7 @@ select {
 
     /* About us Page */
     #reviews {
-        margin-left: 80px;
+        margin-left: 50px;
     }
 
     /*Book now Page*/
@@ -807,7 +807,7 @@ select {
 
     /* Home Page*/
     #cover-text {
-        bottom: 10px;
+        bottom: 150px;
         right: 5px;
     }
 
@@ -824,5 +824,13 @@ select {
     #gender,
     #hours {
         width: 45%;
+    }
+}
+
+/* Large devices (laptops/desktops, from 1025px to 1600px) */
+@media only screen and (max-width: 1600px) {
+    #cover-text {
+        bottom: 100px;
+        right: 5px;
     }
 }
