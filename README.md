@@ -8,7 +8,7 @@
 
 1. [Introduction](#introduction "Goto introduction")
 
-2. [User Experience](#user-exprience "Goto user exprience")
+2. [UX](#ux "Goto ux")
 
     - [Ideal User Demographic](#ideal-user-demographic "Goto ideal user demographic")
     - [User Stories](#user-stories "Goto user stories")
@@ -22,14 +22,14 @@
 
 4. [Testing](#testing "Goto testing")
 
-    - [Validator testing](#validator-testing "Gotot validator)
+    - [Validator testing](#validator-testing "Goto validator testing")
 
-5. Issues and Bugs
+5. [Issues and Bugs](#issues-and-bugs "Goto issues and bugs")
 
-6. Technologies Used
+6. [Technologies Used](#technologies-used "Goto technologies used")
 
-    - Main Languages Used
-    - Libraries, Frameworks & Programs Used
+    - [Main Languages Used](#main-languages-used "Goto main languages used")
+    - [Libraries, Frameworks & Programs Used](#libraries-frameworks-&-programs-used "Goto Libraries, Frameworks & Programs Used")
 
 7. [Deployment](#deployment "Goto deployment")
 
@@ -53,7 +53,7 @@
 Afya Centre is an informative website that focuses on human wellness and offers many types of services and treatments to help people maintain their physical health and beauty. Afya Centre aims to guide man into a better lifestyle with different experienced coaches who provide advice, information about health and prevention of illness.
 
 The focus of this website is the registration of people who need us. As everyone deserves to feel good, Afya Centre is open to everyone, young and old. 
-This is the first of five Milestone Projects that the developer must complete during his Full Stack Web Development at The Code Institute. The main requirements were to make a responsive and static website with a minimum of three pages using primarily HTML5 and CSS3.
+This is the first of five Milestone Projects that the developer must complete during his Full Stack Web Development at The Code Institute. The main requirements were to make a responsive and static website with a minimum of three pages using primarily *HTML5* and *CSS3*.
 
 # UX
 
@@ -104,40 +104,40 @@ To create an informative and easy-to-navigate site, Afya Centre worked with its 
 
 ### Strategy
 
-#### The website will be focus on the following three categories of target audiences:
+The website will be focus on the following three categories of target audiences:
 
-##### Demographic
-1. 18 years and over
-2. People of the 3rd and 4th age
-3. All residents and Irish citizens
+1. Demographic
+    * 18 years and over
+    * People of the 3rd and 4th age
+    * All residents and Irish citizens
 
-##### Position
+2. Position
 
-1. New clients
-2. Current clients
-3. Wellness lovers
-4. People in need of care
-5. Careless people
-6. Companies (for their employees)
+    * New clients
+    * Current clients
+    * Wellness lovers
+    * People in need of care
+    * Careless people
+    * Companies (for their employees)
 
-##### Psychographics:
+3. Psychographics:
 
-1. Types of people:
-     * Hard worker
-     * Extraverted
-     * Careful people
-     * People with aches and pains
-     * People who want to lose weight
-     * People who want to feel better
-     * People who want to maintain a healthy lifestyle
-     * People who are willing to invest in their well-being
-     * People who are not comfortable in their own skin/body
+    * Types of people:
+        - Hard worker
+        - Extraverted
+        - Careful people
+        - People with aches and pains
+        - People who want to lose weight
+        - People who want to feel better
+        - People who want to maintain a healthy lifestyle
+        - People who are willing to invest in their well-being
+        - People who are not comfortable in their own skin/body
 
-2. Activities:
+4. Activities:
      * Workers in all fields
      * Sportsmen and women
 
-#### The website needs to facilitate the user to:
+The website needs to facilitate the user to:
 
 1. Retrieve the desired information:
     * The list of services and treatments provided
@@ -150,11 +150,11 @@ To create an informative and easy-to-navigate site, Afya Centre worked with its 
 
 2. Book 
 
-#### The website needs to facilitate the centre to:
+The website needs to facilitate the centre to:
 
 1. Continue to have an online presence
 2. Provide a comprehensive, understandable, and informative website for users to find relevant information such as: services & treatments, photos
-3. Collect as much user data as possible (name, email address & phone number) in order to serve them better and to keep them informed 
+3. Collect as much user data as possible (name & email address) in order to serve them better and to keep them informed 
 4. Provide a communication channel for new and existing customers (social links - easily accessible on the site)
 5. Get more bookers.
 
@@ -165,23 +165,23 @@ There are two categories of requirements that were defined in order to clearly i
 1.	Content Requirements:
 
     * The user will be looking for:
-         The different services and treatments offered
-        o The coaches available
-        o Information about price
-        o The location of the centre
-        o Photos and video
-        o How to book
-        o Social links
-        o Contact details
+        - The different services and treatments offered
+        - The coaches available
+        - Information about price
+        - The location of the centre
+        - Photos and video
+        - How to book
+        - Social links
+        - Contact details
 
 2.	Functionality Requirements:
 
     * The user will be able to:
-        o Stay connected 
-        o Find links to external sites in order to get more information, to see more photos, videos, and testimonials
-        o Navigate easily through the site to find the information they want.
-        o Contact the centre directly through the communication channel of your choice.
-        o Find the route to the centre (all locals).
+        - Stay connected 
+        - Find links to external sites in order to get more information, to see more photos, videos, and testimonials
+        - Navigate easily through the site to find the information they want.
+        - Contact the centre directly through the communication channel of your choice.
+        - Find the route to the centre (all locals).
 
 ### Structure
 
@@ -195,19 +195,21 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
 1. Typography
 
-* A combination of [Pangolin](https://fonts.google.com/specimen/Pangolin?query=pangolin) and [Raleway](https://fonts.google.com/?query=raleway) fonts is used throughout the website, with Sans Serif as a back-up font in case of import failure.
-* For elements that needed to be highlighted, bold, italic, and underlined were used with the aim of emphasising these elements.
+    * A combination of [Pangolin](https://fonts.google.com/specimen/Pangolin?query=pangolin) and [Raleway](https://fonts.google.com/?query=raleway) fonts is used throughout the website, with Sans Serif as a back-up font in case of import failure.
+    * For elements that needed to be highlighted, bold, italic, and underlined were used with the aim of emphasising these elements.
 
 2.	Colour scheme
 
-* The main colours used on the site are a mixture of blue and green, with purple accents.
-The chosen (cool) colour palette reflects peace, is appreciated for its restful qualities, and evokes calmness and freshness. Cool colours have a very soft effect and are generally considered to be the colours of the night. They are the colours of nature, water and inspire sobriety, calm and relaxation.
+    * The main colours used on the site are a mixture of blue and green, with purple accents.
+    The chosen (cool) colour palette reflects peace, is appreciated for its restful qualities, and evokes calmness and freshness. 
+
+    * Cool colours have a very soft effect and are generally considered to be the colours of the night. They are the colours of nature, water and inspire sobriety, calm and relaxation.
 
 3.	Imagery
 
-* The selected imagery and video are authentic and aesthetically consistent, showing an overview of what is happening at Afya Centre. The imagery is eye-catching and visually represents the theme of the website.
+    * The selected imagery and video are authentic and aesthetically consistent, showing an overview of what is happening at Afya Centre. The imagery is eye-catching and visually represents the theme of the website.
 
-* All images provide alternative text for use in the event that the element cannot be rendered.
+    * All images provide alternative text for use in the event that the element cannot be rendered.
 
 # FEATURES
 
@@ -218,98 +220,123 @@ The chosen (cool) colour palette reflects peace, is appreciated for its restful 
 1. Header Logo & Navigation Bar
 
     * The website has a consistent responsive navigation system that is found on every page and allows users to navigate easily from page to page without complications
+
     * The header contains a conventionally placed logo at the top left of the page (redirects the user to the home page with one click) and a navigation bar at the top right of the page.
+
     * The header is fixed so the user can see it if he goes to the bottom of the page.
 
-[Header](assets/docs/screenshots/header-screenshot.PNG)
+<img src="docs/screenshots/header-screenshot.PNG" width="500">
 
 2. Landing page image
 
     * The landing includes an animated photograph with text overlay in the blue square to allow the user to directly see the benefits and discounts of the Afya Centre, this makes the section attractive for the user.
 
-    IMAGE
+  <img src="docs/screenshots/landing-screenshot.PNG" width="500">
 
 3. Services section
 
     * This section will allow the user to see all services, treatments, and coaches that the Afya Centre offers. 
+
     * This section is represented by three rectangular boxes of different colours (blue, green, and purple) align horizontally with a fixed background image.
 
-IMAGE
+<img src="docs/screenshots/services-screenshot.PNG" width="500">
 
 4. Location section
 
-    * This section will allow the user to see all the local of the Afya Centre and the opening & closing hours for all the local.
+    * This section will allow the user to see all locals of Afya Centre and the opening & closing hours for all locals.
+
     * The where to find us section, it represented by four square boxes (three first for locals and last one for opening and closing hours) with the same background image.
 
-IMAGE
+<img src="docs/screenshots/location-screenshot.PNG" width="500">
 
 5. Footer section
 
-    * This section provides the email address, phone number and links to the main Afya centre social pages, just click on the icon to be redirected to the platform of the centre of your choice
+    * This section provides the email address, phone number and links to the main Afya centre social pages with a light background color, just click on:
+        -  the icon to be redirected to the platform of the centre of your choice. 
+        - the email address to be redirected to your mail.
+        - the number to be redirected to your phone dial and make directly the call.
 
     * This section is on every page of the website and allows customers to stay in touch with the centre via social media, email, and telephone. 
 
-IMAGE
+<img src="docs/screenshots/footer-screenshot.PNG" width="500">
 
 ### ABOUT US PAGE
 
-6. Video section
+1. Video section
 
     * This [video](https://www.youtube.com/watch?v=e6T4eUFZMaA&t=48s) section will provide a video which shows the view of one of the service in Afya Centre and the user can see and control it all along.
 
-IMAGE
+<img src="docs/screenshots/video-screenshot.PNG" width="500">
 
-7. Information section
+2. Information section
 
-    * This section will provide the main information about the Afya Centre such as the purpose, some details about the price and what they do so the user can know a more about the centre.
+    * This section will provide the main information about the Afya Centre such as the purpose, some details about the price, what they do and why to choose them, so the user can know more about the centre.
 
-IMAGE
+<img src="docs/screenshots/information-screenshot.PNG" width="500">
 
-8. User rating section
+3. User rating section
 
     * The user will be able to see other users' experiences and how many stars they gave to Afya Centre .
 
-IMAGE
+    * This section is represented by 5 rows and 3 columns with the number of stars that other users gave. It will also provide the number of users who was there.
 
-9. Coach section 
+<img src="docs/screenshots/rating-screenshot.PNG" width="500">
 
-    * This section will allow the user to see all Afya Centre coaches, their names, specialities, and years of experience. This will increase the user's confidence as he will already know who they are working with.
-    * The Coach section is represented by four square boxes of coaches’ pictures with their name, specialities, and years of experience below.
+4. Coach section 
 
-IMAGE
+    * This section will allow the user to see all Afya Centre coaches. This will increase the user's confidence as he will already know who they are working with.
+
+    * The Coach section is represented by four rectangular boxes of coaches’ pictures.
+
+<img src="docs/screenshots/coaches-screenshot.PNG" width="500">
+
+5. Description section
+
+    * This section will allow the user to see coaches' names, specialities, and years of experience.
+
+    * The Coach section is represented by four rectangular boxes of coaches’ names, specialities, and years of experience below the coaches' pictures.
+
+<img src="docs/screenshots/description-screenshot.PNG" width="500">
 
 ### BOOK NOW PAGE
 
 1. This page will allow the user to make a reservation at the Afya Centre for the chosen treatments. 
     * The user will be asked to provide:
-        o Full name, email address 
-        o Gender and age
-        o Date and time
-        o Services and treatment required
+        - Full name, email address 
+        - Gender and age
+        - Date and time
+        - Services and treatment required
 
     * The user will be able to specify which coach he wants
     * Finally, the user will be asked to book
-    * This section is represented by a background-image with text overlay and the call-to-action button at the bottom.
+    * This section is represented by a background-image with a background color containing text overlay and a green call-to-action button at the bottom.
 
-IMAGE
+<img src="docs/screenshots/form-screenshot.PNG" width="500">
 
 ### SUBMIT PAGE
 
 1. A thank you message will be addressed to the user when he will book.
 
+Image
+
 ## Features to implement in the future
 
 1. Blog and testimonial pages
+
     * Features: add a blog page and a testimonial page, where the user can experience the atmosphere of Afya centre without having set foot there, can see the feelings of others and some advice.
+
     * Reason for not featuring in this release: It is advisable to make at least three pages for this project
 
 2. Gallery and price list pages
+
     * Features: add a gallery page, where the user can view in details all services, treatments and prices in Afya Centre. 
+
     * Reason for not featuring in this release: It is advisable to make at least three pages for this project
 
 # Testing
 
 * Validator testing
+    
 
 # Issues and Bugs
 
@@ -346,7 +373,13 @@ IMAGE
 3. Code
     * The developer has consulted some websites in order to better understand and use the code for this site. Below are the sites used:
 
-        o [W3Schools](https://www.w3schools.com/)
-        o [Stack Overflow](https://stackoverflow.com/)
+        - [W3Schools](https://www.w3schools.com/)
+        - [Stack Overflow](https://stackoverflow.com/)
+        - [000webhost](https://www.000webhost.com/blog/make-a-phone-number-clickable), to make the phone number clickable
+        - [Youtube help](https://support.google.com/youtube/answer/171780?hl=en), to embed the video
+
+    4. Favicon
+        * The developper used [Favicon.io](https://favicon.io/) to generate a favicon for Afya Centre.
+        
         
 # Acknowledgements
