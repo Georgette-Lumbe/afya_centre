@@ -125,7 +125,7 @@ h2 {
 
     background-color: rgba(99, 161, 219, .9);
 
-    bottom: 150px;
+    bottom: 100px;
     right: 30px;
 
     position: absolute;
@@ -809,6 +809,7 @@ select {
     #cover-text {
         bottom: 150px;
         right: 5px;
+        top: 300px
     }
 
     #location>div {
