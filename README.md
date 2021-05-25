@@ -381,9 +381,31 @@ Image
 
 # Deployment
 
+This project wascommited to git and push to GitHub using the workspace terminal.
+
 ## Deploying on GitHub pages
+To deploy this website to GitHub repository, the developer followed these steps:
+
+1. Log into [GitHub](https://github.com/)
+2. Locate the Github Repository
+3. Select Settings from the menu at the top of the repository
+4. Scroll down the Settings page to the *GitHub Pages* section
+5. Click on *check it out here!* 
+6. Under *source* click the drop-menu *None* and select *Master Branch*
+7. Above selection, the page will automatically refresh and show that the website was deployed successfully
+8. Refresh again the Github, the deployed link is on the *GitHub Pages*.
+
 ## Forking the Repository
+
+To make a copy of the original repository on our  GitHub account, we need to fork the GitHub Repository. To view or/and make changes without affecting the original repository, we need to follow these steps:
+
+1. Log into [GitHub](https://github.com/)
+2. Locate the GitHub Repository
+3. On the right side of the page, at the top of the repository, select *Fork*
+4. A copy of the original repository will be in your GitHub account.
+
 ## Creating a clone
+
 
 # Credit
 
