@@ -827,11 +827,19 @@ select {
         width: 45%;
     }
 }
-
-/* Extra Large devices (laptops/desktops, from 1025px to 1600px) */
-@media only screen and (max-width: 1600px) {
+/* Extra Large devices (laptops/desktops, from 1025px to 1599px) */
+@media only screen and (max-width: 1599px) {
     #cover-text {
         bottom: 350px;
+        right: 5px;
+    }
+}
+
+
+/* Very Extra Large devices (laptops/desktops, 1600px and up) */
+@media only screen and (min-width: 1600px) {
+    #cover-text {
+        bottom: 520px;
         right: 5px;
     }
 }

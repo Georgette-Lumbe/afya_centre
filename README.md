@@ -38,9 +38,9 @@ Credits
     •	Code
 
 Acknowledgements
+---
 
 # Introduction
----
 
 ## WELCOME TO AFYA CENTRE!
 
@@ -49,8 +49,7 @@ Afya Centre is an informative website that focuses on human wellness and offers 
 The focus of this website is the registration of people who need us. As everyone deserves to feel good, Afya Centre is open to everyone, young and old. 
 This is the first of five Milestone Projects that the developer must complete during his Full Stack Web Development at The Code Institute. The main requirements were to make a responsive and static website with a minimum of three pages using primarily HTML5 and CSS3.
 
-# User Experience
----
+# UX
 
 ## Ideal User Demographic
 
@@ -205,7 +204,6 @@ The chosen (cool) colour palette reflects peace, is appreciated for its restful 
 * All images provide alternative text for use in the event that the element cannot be rendered.
 
 # FEATURES
----
 
 ## Existing & Design features
 
@@ -215,8 +213,9 @@ The chosen (cool) colour palette reflects peace, is appreciated for its restful 
 
     * The website has a consistent responsive navigation system that is found on every page and allows users to navigate easily from page to page without complications
     * The header contains a conventionally placed logo at the top left of the page (redirects the user to the home page with one click) and a navigation bar at the top right of the page.
+    * The header is fixed so the user can see it if he goes to the bottom of the page.
 
-IMAGE
+[Header](assets/docs/screenshots/header-screenshot.PNG)
 
 2. Landing page image
 
@@ -303,15 +302,12 @@ IMAGE
     * Reason for not featuring in this release: It is advisable to make at least three pages for this project
 
 # Testing
----
 
 * Validator testing
 
 # Issues and Bugs
----
 
 # Technologies used 
----
 
 1. Main Languages Used
     * [HTLM5](https://fr.wikipedia.org/wiki/HTML5)
@@ -327,14 +323,12 @@ IMAGE
     * [Am I Responsive?](http://ami.responsivedesign.is/#) was used to view the responsive design throughout the process and to generate image mock-ups for use.
 
 # Deployment
----
 
 ## Deploying on GitHub pages
 ## Forking the Repository
 ## Creating a clone
 
 # Credit
----
 
 1. Content
     * The text used for the About Us page is sourced from [Healthline](https://www.healthline.com/program/about-us).
@@ -350,4 +344,3 @@ IMAGE
         o [Stack Overflow](https://stackoverflow.com/)
         
 # Acknowledgements
----
