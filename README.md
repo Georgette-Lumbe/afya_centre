@@ -1,43 +1,49 @@
-Table of contents
+# AFYA CENTRE
 
-Introduction
+<img src="docs/screenshots/responsive.PNG" width="500">
 
-User Experience
+[View the live project here](https://georgette-lumbe.github.io/afya_centre/)
 
-    •	Ideal User Demographic
-    •	User Stories
-    •	Development Planes
-    •	Design
+# Table of contents
 
-Features
+1. [Introduction](#introduction "Goto introduction")
 
-    •	Existing & Design Features
-    •	Features to Implement in the future
+2. [User Experience](#user-exprience "Goto user exprience")
 
-Testing
+    - [Ideal User Demographic](#ideal-user-demographic "Goto ideal user demographic")
+    - [User Stories](#user-stories "Goto user stories")
+    - [Development Planes](#development-planes "Goto development planes")
+    - [Design](#design "Goto design")
 
-    •	Validator testing
+3. [Features](#features "Goto features")
 
-Issues and Bugs
+    - [Existing & Design Features](#existing-&-design-features "Goto existing & design features")
+    - [Features to Implement in the future](#features-to-implement-in-the-future "Goto features to implement in the future")
 
-Technologies Used
+4. [Testing](#testing "Goto testing")
 
-    •	Main Languages Used
-    •	Libraries, Frameworks & Programs Used
+    - [Validator testing](#validator-testing "Gotot validator)
 
-Deployment
+5. Issues and Bugs
 
-    •	Deploying on GitHub Pages
-    •	Forking the Repository
-    •	Creating a Clone
+6. Technologies Used
 
-Credits
+    - Main Languages Used
+    - Libraries, Frameworks & Programs Used
 
-    •	Content
-    •	Media
-    •	Code
+7. [Deployment](#deployment "Goto deployment")
 
-Acknowledgements
+    - [Deploying on GitHub Pages](#deploying-on-github-pages "Goto deploying on Github pages")
+    - [Forking the Repository](#forking-the-reposiitory "Goto forking the repository")
+    - [Creating a Clone](#creating-a-clone "Goto Creating a Clone")
+
+8. [Credits](#credits "Goto credits")
+
+    - [Content](#content "Goto content")
+    - [Media](#media "Goto media")
+    - [Code](#code "Goto code")
+
+9. [Acknowledgements](#acknowledgements "Goto acknowledgements")
 ---
 
 # Introduction
