@@ -1,6 +1,6 @@
 # AFYA CENTRE
 
-<img src="docs/screenshots/responsive.PNG" width="500">
+<img src="docs/screenshots/responsive.PNG" width="100%" height="25%">
 
 [View the live project here](https://georgette-lumbe.github.io/afya_centre/)
 
@@ -225,13 +225,13 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
     * The header is fixed so the user can see it if he goes to the bottom of the page.
 
-<img src="docs/screenshots/header-screenshot.PNG" width="500">
+<img src="docs/screenshots/header-screenshot.PNG" width="100%" height="25%">
 
 2. Landing page image
 
     * The landing includes an animated photograph with text overlay in the blue square to allow the user to directly see the benefits and discounts of the Afya Centre, this makes the section attractive for the user.
 
-  <img src="docs/screenshots/landing-screenshot.PNG" width="500">
+  <img src="docs/screenshots/landing-screenshot.PNG" width="100%" height="50%">
 
 3. Services section
 
@@ -239,7 +239,7 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
     * This section is represented by three rectangular boxes of different colours (blue, green, and purple) align horizontally with a fixed background image.
 
-<img src="docs/screenshots/services-screenshot.PNG" width="500">
+<img src="docs/screenshots/services-screenshot.PNG" width="100%" height="50%">
 
 4. Location section
 
@@ -247,7 +247,7 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
     * The where to find us section, it represented by four square boxes (three first for locals and last one for opening and closing hours) with the same background image.
 
-<img src="docs/screenshots/location-screenshot.PNG" width="500">
+<img src="docs/screenshots/location-screenshot.PNG" width="100%" height="50%">
 
 5. Footer section
 
@@ -258,7 +258,7 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
     * This section is on every page of the website and allows customers to stay in touch with the centre via social media, email, and telephone. 
 
-<img src="docs/screenshots/footer-screenshot.PNG" width="500">
+<img src="docs/screenshots/footer-screenshot.PNG" width="100%" height="50%">
 
 ### ABOUT US PAGE
 
@@ -266,13 +266,13 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
     * This [video](https://www.youtube.com/watch?v=e6T4eUFZMaA&t=48s) section will provide a video which shows the view of one of the service in Afya Centre and the user can see and control it all along.
 
-<img src="docs/screenshots/video-screenshot.PNG" width="500">
+<img src="docs/screenshots/video-screenshot.PNG" width="100%" height="50%">
 
 2. Information section
 
     * This section will provide the main information about the Afya Centre such as the purpose, some details about the price, what they do and why to choose them, so the user can know more about the centre.
 
-<img src="docs/screenshots/information-screenshot.PNG" width="500">
+<img src="docs/screenshots/information-screenshot.PNG" width="100%" height="50%">
 
 3. User rating section
 
@@ -280,7 +280,7 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
     * This section is represented by 5 rows and 3 columns with the number of stars that other users gave. It will also provide the number of users who was there.
 
-<img src="docs/screenshots/rating-screenshot.PNG" width="500">
+<img src="docs/screenshots/rating-screenshot.PNG" width="100%" height="50%">
 
 4. Coach section 
 
@@ -288,7 +288,7 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
     * The Coach section is represented by four rectangular boxes of coaches’ pictures.
 
-<img src="docs/screenshots/coaches-screenshot.PNG" width="500">
+<img src="docs/screenshots/coaches-screenshot.PNG" width="100%" height="50%">
 
 5. Description section
 
@@ -296,7 +296,7 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
     * The Coach section is represented by four rectangular boxes of coaches’ names, specialities, and years of experience below the coaches' pictures.
 
-<img src="docs/screenshots/description-screenshot.PNG" width="500">
+<img src="docs/screenshots/description-screenshot.PNG" width="100%" height="50%">
 
 ### BOOK NOW PAGE
 
@@ -311,7 +311,7 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
     * Finally, the user will be asked to book
     * This section is represented by a background-image with a background color containing text overlay and a green call-to-action button at the bottom.
 
-<img src="docs/screenshots/form-screenshot.PNG" width="500">
+<img src="docs/screenshots/form-screenshot.PNG" width="100%">
 
 ### SUBMIT PAGE
 
@@ -335,8 +335,32 @@ Image
 
 # Testing
 
-* Validator testing
-    
+1. Validator testing
+
+* The W3C Markup Validation Service
+<details>
+ <summary>index.html</summary>
+ <img src="docs/screenshots/index-html.PNG" width="100%" height="50%">
+ </details>
+ <details>
+ <summary>about-us.html</summary>
+ <img src="docs/screenshots/about-us-hmtl.PNG" width="100%" height="50%">
+ </details>
+ <details>
+ <summary>form.html</summary>
+ <img src="docs/screenshots/form-html.PNG" width="100%" height="50%">
+ </details>
+ <details>
+ <summary>submit.html</summary>
+ <img src="docs/screenshots/submit-html.PNG" width="100%" height="50%">
+ </details> <br>
+
+- The W3C CSS Validation Service
+ <details>
+ <summary>style.css</summary>
+ <img src="docs/screenshots/style-css.PNG" width="100%" height="50%">
+ </details>
+<br>
 
 # Issues and Bugs
 
@@ -378,8 +402,9 @@ Image
         - [000webhost](https://www.000webhost.com/blog/make-a-phone-number-clickable), to make the phone number clickable
         - [Youtube help](https://support.google.com/youtube/answer/171780?hl=en), to embed the video
 
-    4. Favicon
-        * The developper used [Favicon.io](https://favicon.io/) to generate a favicon for Afya Centre.
+    4. Favicon  
+
+    * The developper used [Favicon.io](https://favicon.io/) to generate a favicon for Afya Centre.
         
         
 # Acknowledgements
