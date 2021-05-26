@@ -292,6 +292,9 @@ footer {
 /*Video*/
 
 #video {
+    width: 70%;
+    height: 400px;
+    margin: auto;
     padding-top: 100px;
     text-align: center;
     overflow: hidden;
@@ -299,24 +302,40 @@ footer {
 
 iframe {
     border: none;
+    width: 100%;
+    height: 100%;
 }
 
 /*Text information section*/
 #information {
     font-family: Raleway, sans-serif;
     text-align: center;
-    padding: 0 30px;
     color: #3a3a3a;
+}
+
+#text {
+    padding: 10px 30px;
+    margin-top: 30px;
+    background-color: rgba(124, 181, 234, 0.15);
+    ;
 }
 
 #information h2 {
     font-size: 200%;
+    text-decoration: underline;
     text-align: center;
     margin: 30px 0;
 }
 
 #information h3 {
-    margin: 30px 0;
+    margin: 10px 0;
+    color: orange;
+}
+
+#information h4 {
+    font-family: Cursive, sans-serif;
+    margin: 10px 0;
+    color: #1976bd;
 }
 
 
@@ -324,7 +343,7 @@ iframe {
 
 #reviews {
     width: 70%;
-    margin-left: 190px;
+    margin: auto;
 }
 
 #rating {
@@ -383,19 +402,50 @@ iframe {
 
 /* Individual bars */
 .bar-5 {
-    width: 90%;
+    width: 60%;
+    height: 18px;
+    background-color: #04AA6D;
+}
+
+.bar-4 {
+    width: 30%;
+    height: 18px;
+    background-color: #2196F3;
+}
+
+.bar-3 {
+    width: 10%;
+    height: 18px;
+    background-color: #00bcd4;
+}
+
+.bar-2 {
+    width: 4%;
+    height: 18px;
+    background-color: #ff9800;
+}
+
+.bar-1 {
+    width: 15%;
+    height: 18px;
+    background-color: #f44336;
+}
+
+/* Individual bars */
+.bar-5 {
+    width: 70%;
     height: 18px;
     background-color: #38761d;
 }
 
 .bar-4 {
-    width: 25%;
+    width: 18%;
     height: 18px;
     background-color: rgb(99, 161, 219);
 }
 
 .bar-3 {
-    width: 15%;
+    width: 7%;
     height: 18px;
     background-color: #8e7cc3;
 }
@@ -664,8 +714,7 @@ select {
 
     /*About Us Page*/
     #video {
-        width: 100%;
-        height:auto;
+        height: 300px;
     }
 
     #information h2 {
@@ -674,10 +723,6 @@ select {
 
     #information p {
         font-size: 100%;
-    }
-
-    #reviews {
-        margin-left: 50px;
     }
 
     /* Responsive layout - make the columns stack on top of each other instead of next to each other */
@@ -691,10 +736,23 @@ select {
         display: none;
     }
 
+    .side {
+        width: fit-content;
+    }
+
     .column {
         width: 100%;
         clear: both;
         padding: 0;
+    }
+
+    .heading {
+        font-size: 18px;
+        margin-right: 5px;
+    }
+
+    .fa {
+        font-size: 15px;
     }
 
     .description {
@@ -775,9 +833,6 @@ select {
     }
 
     /* About us Page */
-    #reviews {
-        margin-left: 50px;
-    }
 
     /*Book now Page*/
     .book-section {
@@ -825,6 +880,7 @@ select {
         width: 45%;
     }
 }
+
 /* Extra Large devices (laptops/desktops, from 1025px to 1599px) */
 @media only screen and (max-width: 1599px) {
     #cover-text {
