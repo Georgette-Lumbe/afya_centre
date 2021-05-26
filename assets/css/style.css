@@ -208,6 +208,7 @@ h2 {
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
+    padding: 10px;
 }
 
 #where {
@@ -655,7 +656,6 @@ select {
         width: 100%;
         clear: both;
         height: 150px;
-        padding: 0;
     }
 
     #location div {
@@ -772,7 +772,6 @@ select {
         width: 100%;
         clear: both;
         height: 150px;
-        padding: 0;
     }
 
     /* About us Page */
@@ -816,7 +815,6 @@ select {
         width: 100%;
         clear: both;
         height: 150px;
-        padding: 0;
     }
 
     /*Book now Page*/
