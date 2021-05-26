@@ -518,7 +518,7 @@ form {
     height: 680px;
     padding: 30px;
     margin: 30px auto;
-    background-color: rgba(224, 216, 216, .6);
+    background-color: rgba(168, 191, 208, .87);
     color: #3a3a3a;
     overflow: hidden;
 }
@@ -568,7 +568,7 @@ label {
 
 select {
     height: 30px;
-    width: 17%;
+    width: 40%;
     margin: 0 auto;
     padding-left: 10px;
 
@@ -583,7 +583,7 @@ select {
 }
 
 .treatments-checkbox {
-    margin-left: 0;
+    float: none;
 }
 
 #gender {
@@ -596,9 +596,10 @@ select {
     width: 35%;
 }
 
-#date {
-    margin-left: 40px;
+#day {
+    margin-left: 45px;
     width: 35%;
+    min-width: 45%;
 }
 
 #age {
@@ -612,13 +613,13 @@ select {
 }
 
 .book-button {
-    margin-top: 20px;
-    margin-left: 40%;
+    margin-left: 30%;
     padding: 15px 32px 15px 32px;
     background-color: #38761d;
     color: #fafafa;
     font-weight: 600;
     font-size: 100%;
+    cursor: pointer;
 
     border-radius: 10px;
 
@@ -794,18 +795,14 @@ select {
     }
 
     .treatments-checkbox {
-        margin-left: 0;
+        float: none;
     }
 
     #age,
-    #date,
+    #day,
     #gender,
     #hours {
-        width: 35%;
-    }
-
-    .book-button {
-        right: 0;
+        width: 55%;
     }
 }
 
@@ -841,18 +838,22 @@ select {
 
     form {
         height: 900px;
-        width: 70%;
+        width: 90%;
     }
 
     #age,
-    #date,
+    #day,
     #gender,
     #hours {
-        width: 55%;
+        width: 40%;
     }
 
     .input[type=coaches] {
         width: 40%;
+    }
+
+    .treatments-checkbox {
+        float: none;
     }
 }
 
