@@ -1,8 +1,11 @@
 # AFYA CENTRE - Testing
 
-[Main README.md file](README.md)
-[View live project]()
-[View website in GitHub pages]
+[Main README.md file](https://github.com/Georgette-Lumbe/afya_centre/blob/master/README.md)
+
+[View live project](https://georgette-lumbe.github.io/afya_centre/)
+
+[View Website in GitHub pages](https://github.com/Georgette-Lumbe/afya_centre)
+
 ---
 
 # Table of contents

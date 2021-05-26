@@ -17,24 +17,24 @@
 
 3. [Features](#features "Goto features")
 
-    - [Existing & Design Features](#existing-and-design-features "Goto existing & design features")
+    - [Existing and Design Features](#existing-and-design-features "Goto existing & design features")
     - [Features to Implement in the future](#features-to-implement-in-the-future "Goto features to implement in the future")
 
 4. [Testing](#testing "Goto testing")
 
-    - [Testing.md](TESTING.md)
+    - [Testing.md](https://github.com/Georgette-Lumbe/afya_centre/blob/master/TESTING.md)
 
 5. [Issues and Bugs](#issues-and-bugs "Goto issues and bugs")
 
 6. [Technologies Used](#technologies-used "Goto technologies used")
 
     - [Main Languages Used](#main-languages-used "Goto main languages used")
-    - [Libraries, Frameworks and Programs Used](#libraries-frameworks-and-programs-used "Goto Libraries, Frameworks and Programs Used")
+    - [Libraries, Frameworks and Programs Used](#libraries-frameworks-and-programs-used "Goto Libraries/Frameworks and Programs Used")
 
 7. [Deployment](#deployment "Goto deployment")
 
     - [Deploying on GitHub Pages](#deploying-on-github-pages "Goto deploying on Github pages")
-    - [Forking the Repository](#forking-the-reposiitory "Goto forking the repository")
+    - [Forking the Repository](#forking-the-repository "Goto forking the repository")
     - [Creating a Clone](#creating-a-clone "Goto Creating a Clone")
 
 8. [Credits](#credits "Goto credits")
@@ -42,6 +42,7 @@
     - [Content](#content "Goto content")
     - [Media](#media "Goto media")
     - [Code](#code "Goto code")
+    - [Favicon](#favicon "Goto favicon")
 
 9. [Acknowledgements](#acknowledgements "Goto acknowledgements")
 ---
@@ -363,7 +364,7 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
 # Testing
 
-Testing information can be found in a separate [testing file](TESTING.md)
+Testing information can be found in a separate [testing file](https://github.com/Georgette-Lumbe/afya_centre/blob/master/TESTING.md)
 
 # Issues and Bugs
 
@@ -391,7 +392,9 @@ The developer met some issues during the development of the website, below are t
 
 6. Header
 
-    A bug was detected when the developer tried to the header at the top of the page. Looking for the solution, the developer found a question answered on [Stack Overflow](https://stackoverflow.com/).
+    * A bug was detected when the developer tried to the header at the top of the page. Looking for the solution, the developer found a question answered on [Stack Overflow](https://stackoverflow.com/). 
+
+    * The developer wanted to put the header centered for small screen devices but he met issues to do that.
 
 7. Social media
 
@@ -399,22 +402,35 @@ The developer met some issues during the development of the website, below are t
 
 8. Form issue
 
-   In the initial designs, the developer planned to use a modal to display a thank you message and the refresh page when the user submitted their details in the book form. On testing, the thank you message was successful done and display on the desktop but doesn't display on the phone. This stage required more knowledge with JavaScript to fix this issue.
+   * In the initial designs, the developer planned to use a modal to display a thank you message and the refresh page when the user submitted their details in the book form. On testing, the thank you message was successful done and display on the desktop but doesn't display on the phone. This stage required more knowledge with JavaScript to fix this issue.
+
+    * The developer met issues: 
+        - to align the select label to the width appropriate.
+        - to align vertically checkboxes and make them responsive on all screens
+        - to set the form inside the image background with padding top
+        - to centered align the submit button.
+
+9. Gitpod bugs
+
+    The developer met some gitpod bugs while building this website, bugs as:
+    * Bugs to load the workspace
+    * Bugs to upload video and images
 
 # Technologies used 
 
-1. Main Languages Used
-    * [HTLM5](https://fr.wikipedia.org/wiki/HTML5)
-    * [CSS3](https://en.wikipedia.org/wiki/CSS)
+## Main Languages Used
+1. [HTLM5](https://fr.wikipedia.org/wiki/HTML5)
+2. [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-2. Libraries, Framework and Programs Used
+## Libraries, Frameworks and Programs Used
 
-    * [Balsamiq](https://balsamiq.com/wireframes/?gclid=Cj0KCQjwna2FBhDPARIsACAEc_XbjAS__pJWBfq4NdpfXxxOVWlh4qsEro7gWthlg3GopXgZgB5PkeQaAiu-EALw_wcB) was used to create the wireframe during the design and reflective phase of the project.
-    * [Google fonts](https://fonts.google.com/) was used to import the fonts “…”, “…” and “…” into the style.css file. These fonts were used all over the project.
-    * [Fonts awesome](https://fontawesome.com/) was used on all pages throughout the website to import icons for the user experience purposes for example social media links, phone number and email address.
-    * [Git](https://git-scm.com/) was used for version control by using the GitPod terminal to commit to Git and push to GitHub.
-    * [GitHub](https://github.com/) was used to store the project after pushing.
-    * [Am I Responsive?](http://ami.responsivedesign.is/#) was used to view the responsive design throughout the process and to generate image mock-ups for use.
+1. [Balsamiq](https://balsamiq.com/wireframes/?gclid=Cj0KCQjwna2FBhDPARIsACAEc_XbjAS__pJWBfq4NdpfXxxOVWlh4qsEro7gWthlg3GopXgZgB5PkeQaAiu-EALw_wcB) was used to create the wireframe during the design and reflective phase of the project.
+2. [Google fonts](https://fonts.google.com/) was used to import the fonts “…”, “…” and “…” into the style.css file. These fonts were used all over the project.
+3. [Fonts awesome](https://fontawesome.com/) was used on all pages throughout the website to import icons for the user experience purposes for example social media links, phone number and email address.
+4. [Git](https://git-scm.com/) was used for version control by using the GitPod terminal to commit to Git and push to GitHub.
+5. [GitHub](https://github.com/) was used to store the project after pushing.
+6. [Am I Responsive?](http://ami.responsivedesign.is/#) was used to view the responsive design throughout the process and to generate image mock-ups for use.
+7. [Free Formatter](https://freeformatter.com/) was used to format all HTML and CSS files.
 
 # Deployment
 
@@ -461,26 +477,26 @@ Steps to run this project within a locala IDE:
 7. Type *git clone*, and then paste the url you copied in step 3.
 8. Press Enter. Your local clone will be created.
 
-# Credit
+# Credits
 
-1. Content
-    * The text used for the About Us page is sourced from [Healthline](https://www.healthline.com/program/about-us).
+## Content
+* The text used for the About Us page is sourced from [Healthline](https://www.healthline.com/program/about-us).
 
-2. Media
-    * Some images were sourced from [Unsplash](https://unsplash.com/) and others from [Pexels](https://www.pexels.com/).
-    * The video user for the About Us page is sourced from [Youtube](https://www.youtube.com/watch?v=e6T4eUFZMaA&t=48s).
+## Media
+* Some images were sourced from [Unsplash](https://unsplash.com/) and others from [Pexels](https://www.pexels.com/).
+* The video user for the About Us page is sourced from [Youtube](https://www.youtube.com/watch?v=e6T4eUFZMaA&t=48s).
 
-3. Code
-    * The developer has consulted some websites in order to better understand and use the code for this site. Below are the sites used:
+## Code
+* The developer has consulted some websites in order to better understand and use the code for this site. Below are the sites used:
 
-        - [W3Schools](https://www.w3schools.com/)
-        - [Stack Overflow](https://stackoverflow.com/)
-        - [000webhost](https://www.000webhost.com/blog/make-a-phone-number-clickable), to make the phone number clickable
-        - [Youtube help](https://support.google.com/youtube/answer/171780?hl=en), to embed the video
+    - [W3Schools](https://www.w3schools.com/)
+    - [Stack Overflow](https://stackoverflow.com/)
+    - [000webhost](https://www.000webhost.com/blog/make-a-phone-number-clickable), to make the phone number clickable
+    - [Youtube help](https://support.google.com/youtube/answer/171780?hl=en), to embed the video
 
-4. Favicon  
+## Favicon  
 
-    * The developper used [Favicon.io](https://favicon.io/) to generate a favicon for Afya Centre.
+* The developper used [Favicon.io](https://favicon.io/) to generate a favicon for Afya Centre.
         
         
 # Acknowledgements
