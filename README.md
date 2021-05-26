@@ -202,8 +202,8 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
 <details>
 <summary>About us</summary>
-<img src="assets/docs/wireframes/secondpage1.PNG" width="50%" height="50%">
-<img src="assets/docs/wireframes/secondpage2.PNG" width="100%" height="50%">
+<img src="assets/docs/screenshots/secondpage1.PNG" width="100" height="50%">
+<img src="assets/docs/screenshots/secondpage2.PNG" width="100%" height="50%">
 <img src="assets/docs/wireframes/secondpage3.PNG" width="100%" height="50%">
 <img src="assets/docs/wireframes/secondpage4.PNG" width="100%" height="50%">
 </details>
