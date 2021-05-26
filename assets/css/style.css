@@ -125,7 +125,7 @@ h2 {
 
     background-color: rgba(99, 161, 219, .9);
 
-    bottom: 100px;
+    bottom: 65%;
     right: 30px;
 
     position: absolute;
@@ -599,7 +599,6 @@ select {
 #day {
     margin-left: 45px;
     width: 35%;
-    min-width: 45%;
 }
 
 #age {
@@ -676,6 +675,9 @@ select {
         bottom: -10px;
         font-size: 110%;
         width: 320px;
+        height: 130px;
+
+        padding: 10px;
     }
 
     #offers-box {
@@ -804,6 +806,10 @@ select {
     #hours {
         width: 55%;
     }
+
+    #day {
+        min-width: 45%;
+    }
 }
 
 /* Medium devices (landscape tablets, from 768px to 991px ) */
@@ -846,6 +852,10 @@ select {
     #gender,
     #hours {
         width: 40%;
+    }
+
+    #age {
+        min-width: 45%;
     }
 
     .input[type=coaches] {
