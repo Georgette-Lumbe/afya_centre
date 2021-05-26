@@ -363,7 +363,7 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
 # Testing
 
-Testing information can be found in a separate [testing file](testing.md)
+Testing information can be found in a separate [testing file](TESTING.md)
 
 # Issues and Bugs
 
@@ -443,6 +443,23 @@ To make a copy of the original repository on our  GitHub account, we need to for
 
 ## Creating a clone
 
+More steps need to be follow for running project locally:
+
+1. Install the GitPod Browser extension for chrome
+2. After intallation, restart the browser
+3. Log into Github Repository
+4. Click the green *GitPod* button. This will set of a new GitPod workspace to be created from the code in GitHub where you can work locally.
+
+Steps to run this project within a locala IDE:
+
+1. Log into [GitHub](https://github.com/)
+2. Local the GitHub Repository
+3. Under the repository name, click *clone or download*
+4. In the Clone with https section, copy the url for the repository
+5. In your local IDE open the terminal
+6. Change the current working directory to the location where you want the cloned directory to be made
+7. Type *git clone*, and then paste the url you copied in step 3.
+8. Press Enter. Your local clone will be created.
 
 # Credit
 
@@ -467,3 +484,7 @@ To make a copy of the original repository on our  GitHub account, we need to for
         
         
 # Acknowledgements
+
+* I would like to thank my mentor, Seun and my tutor Kasia for their helpfulness, constructive feedback and guidance.
+* I would like to thank my family and my boyfriend Jimmy for all the support during this project.
+* I would like to thank my colleagues of Code Institute and Slack Community for sharing their experience.

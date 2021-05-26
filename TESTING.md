@@ -1,6 +1,6 @@
 # AFYA CENTRE - Testing
 
-[Main README.md file]()
+[Main README.md file](README.md)
 [View live project]()
 [View website in GitHub pages]
 ---
