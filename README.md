@@ -70,7 +70,7 @@ This is the first of five Milestone Projects that the developer must complete du
 
 ### As a potential booker:
 
-1. I want to navigate easily through the relevant information:
+1. I want to navigate easily through the website to find relevant information as:
 
     * Contact details
     * Opening & closing hours
@@ -81,6 +81,7 @@ This is the first of five Milestone Projects that the developer must complete du
 2. I want to navigate to the centre’s social media links
 3. I would like to know what advantages I will have once I book
 4. I would like to be able to see an overview of what is happening in the centre in photos or video, to get an idea.
+5.  I would like to see users rating
 
 ### As a new booker:
 
@@ -91,8 +92,7 @@ This is the first of five Milestone Projects that the developer must complete du
 
 ### As a current client:
 
-1. I want to navigate to information about upcoming services.
-2. I want to stay up to date on new offers and promotions from the Centre so that I can take advantage of them.
+1. I want to stay up to date on upcoming services, new offers and promotions from the Centre so that I can take advantage of them.
 
 ### As an old client:
 
