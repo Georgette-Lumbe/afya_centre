@@ -187,9 +187,31 @@ There are two categories of requirements that were defined in order to clearly i
 
 The website has been organised in a hierarchical tree structure to allow users to navigate the site easily and efficiently, with the following results:
 
+<img src="docs/screenshots/structure.PNG" width="100%" height="50%">
+
 ### Skeleton
 
 Wireframe mock-ups were created in a balsamiq workspace with providing a positive user experience in mind.
+
+<details>
+<summary>Home</summary>
+<img src="docs/wireframes/homepage1.PNG" width="100%" height="50%">
+<img src="docs/wireframes/homepage2.PNG" width="100%" height="50%">
+<img src="docs/wireframes/homepage3.PNG" width="100%" height="50%">
+</details>
+
+<details>
+<summary>About us</summary>
+<img src="docs/wireframes/secondpage1.PNG" width="50%" height="50%">
+<img src="docs/wireframes/secondpage2.PNG" width="100%" height="50%">
+<img src="docs/wireframes/secondpage3.PNG" width="100%" height="50%">
+<img src="docs/wireframes/secondpage4.PNG" width="100%" height="50%">
+</details>
+
+<details>
+<summary>Book now</summary>
+<img src="docs/wireframes/thirdpage.PNG" width="100%" height="50%">
+</details>
 
 ## Design
 
@@ -332,6 +354,12 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
     * Reason for not featuring in this release: It is advisable to make at least three pages for this project
 
+3. Refresh 
+
+    * Feaatures: add a refresh button after the user submit their details from the book form.
+
+    * Reason for not featuring in this release: It required more knowledge with JavaScript.
+
 # Testing
 
 1. Validator testing
@@ -392,6 +420,10 @@ The developer met some issues during the development of the website, below are t
 7. Social media
 
     A bug was detected when the developer tried to align horizontally and centered social media icons. The developer found the solution by asking his colleagues on [Slack](https://app.slack.com/client/T0L30B202/C0L316Z96).
+
+8. Form issue
+
+   In the initial designs, the developer planned to use a modal to display a thank you message and the refresh page when the user submitted their details in the book form. On testing, the thank you message was successful done and display on the desktop but doesn't display on the phone. This stage required more knowledge with JavaScript to fix this issue.
 
 # Technologies used 
 
