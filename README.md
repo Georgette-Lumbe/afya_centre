@@ -316,8 +316,7 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 ### SUBMIT PAGE
 
 1. A thank you message will be addressed to the user when he will book.
-
-Image
+<img src="docs/screenshots/submit-screenshot.PNG" width="100%" height="50%">
 
 ## Features to implement in the future
 
@@ -364,6 +363,36 @@ Image
 
 # Issues and Bugs
 
+The developer met some issues during the development of the website, below are the issues, bugs and solutions that the developer has encountered:
+
+1. Favicon
+
+    The developer has encountered difficulties in setting up the favicon. While researching, the developer found a question that was answered on [Stack Overflow](https://stackoverflow.com/questions/9943771/adding-a-favicon-to-a-static-html-page)
+
+2. Address tag
+
+    The developer wanted to redirect users directly to their email by just clicking on the website's email address. To achieve this, the developer consulted [W3schools](https://www.w3schools.com/tags/tag_address.asp)
+
+3. Phone number
+
+    The developer wanted to redirect users directly to their phone dial by just clicking on the website's phone number. To achieve this, the developer consulted [000Webhost](https://www.000webhost.com/blog/make-a-phone-number-clickable)
+
+4. Video
+
+    The developer wanted to put a video from pexels but he encountered a problem with this video and opted for a youtube video. But he still encountered problems with this video because it didn't accept *video tag*. While looking for a way to upload and size this video in gitpod, he found a solution on [Youtube Help](https://support.google.com/youtube/answer/171780?hl=en).
+
+5. Cover text 
+
+    A bug was detected when the developer tried to make the cover text responsive on all screens, especially on the larger screens, the cover text kept going back and forth despite the media queries already present. By researching max-width and min-width, the developer found the solution on [Email on Acid](https://www.emailonacid.com/blog/article/email-development/emailology_media_queries_demystified_min-width_and_max-width/).
+
+6. Header
+
+    A bug was detected when the developer tried to the header at the top of the page. Looking for the solution, the developer found a question answered on [Stack Overflow](https://stackoverflow.com/).
+
+7. Social media
+
+    A bug was detected when the developer tried to align horizontally and centered social media icons. The developer found the solution by asking his colleagues on [Slack](https://app.slack.com/client/T0L30B202/C0L316Z96).
+
 # Technologies used 
 
 1. Main Languages Used
@@ -381,7 +410,7 @@ Image
 
 # Deployment
 
-This project wascommited to git and push to GitHub using the workspace terminal.
+This project was commited to git and push to GitHub using the workspace terminal.
 
 ## Deploying on GitHub pages
 To deploy this website to GitHub repository, the developer followed these steps:
@@ -424,7 +453,7 @@ To make a copy of the original repository on our  GitHub account, we need to for
         - [000webhost](https://www.000webhost.com/blog/make-a-phone-number-clickable), to make the phone number clickable
         - [Youtube help](https://support.google.com/youtube/answer/171780?hl=en), to embed the video
 
-    4. Favicon  
+4. Favicon  
 
     * The developper used [Favicon.io](https://favicon.io/) to generate a favicon for Afya Centre.
         
