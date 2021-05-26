@@ -1,192 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Afya Centre, a wellness centre for everyone in Ireland">
-    <meta name="keywords" content="wellness, well-being, centre, health, wellness centre, Ireland">
-
-    <link rel="stylesheet" href="assets/css/style.css">
-
-    <!--Add favicon/help from stack Overflow https://stackoverflow.com/questions/9943771/adding-a-favicon-to-a-static-html-page-->
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-
-    <title>Afya Centre</title>
-</head>
-
-<body>
-    <header id="header">
-        <a href="index.html">
-            <h1 id="logo">Afya Centre</h1>
-        </a>
-        <nav>
-            <ul id="menu">
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
-                <li>
-                    <a href="about-us.html">About us</a>
-                </li>
-                <li>
-                    <a href="form.html" class="active">Book now</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="book-section">
-        <form name="booking_form" action="submit.html">
-            <h2>Let's reserve ! <i class="fas fa-heartbeat"></i></h2>
-            <fieldset>
-                <legend>Your details</legend>
-
-                <div>
-                    <label for="user" class="input">Full Name:</label>
-                    <input type="text" id="user" name="fullname" required>
-                </div>
-
-                <div>
-                    <label for="email" class="input">Email:</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-
-                <div class="left">
-                    <label for="gender" class="drop">Gender:</label>
-                    <select name="gender" id="gender" required>
-                        <option value="" disabled selected>Please select</option>
-                        <option value="female">Male</option>
-                        <option value="female">Female</option>
-                        <option value="other">Other</option>
-                    </select>
-                    <br>
-
-                    <label for="age" class="drop">Age:</label>
-                    <select name="age" id="age" required>
-                        <option value="" disabled selected>Please select</option>
-                        <option value="20">Under - 20</option>
-                        <option value="20">20-29</option>
-                        <option value="30">30-39</option>
-                        <option value="40">40-49</option>
-                        <option value="50">50-59</option>
-                        <option value="60+">60+</option>
-                    </select>
-                </div>
-
-                <div class="left">
-                    <label for="day" class="drop">Day:</label>
-                    <select name="day" id="day" required>
-                        <option value="" disabled selected>Please select</option>
-                        <option value="day1">Thursday</option>
-                        <option value="day2">Friday</option>
-                        <option value="day3">Saturday</option>
-                        <option value="day4">Sunday</option>
-                    </select>
-                    <br>
-
-                    <label for="hours" class="drop">Hours:</label>
-                    <select name="time" id="hours" required>
-                        <option value="" disabled selected>Please select</option>
-                        <option value="time1">9am - 10am</option>
-                        <option value="time2">11am - 12pm</option>
-                        <option value="time3">1pm - 2pm</option>
-                        <option value="time4">3pm - 4pm</option>
-                        <option value="time5">5pm - 6pm</option>
-                        <option value="time6">7pm - 8pm</option>
-                    </select>
-                </div>
-            </fieldset>
-
-            <fieldset>
-                <legend>Services & Treatments</legend>
-
-                <div class="services-checkbox">
-                    <input type="checkbox" id="yoga-checkbox" name="yoga">
-                    <label for="yoga-checkbox" class="services">Yoga</label>
-                    <br>
-                    <input type="checkbox" id="sauna-checkbox" name="sauna">
-                    <label for="sauna-checkbox" class="services">Sauna</label>
-                    <br>
-                    <input type="checkbox" id="massage-checkbox" name="massage">
-                    <label for="massage-checkbox" class="services">Massage</label>
-                    <br>
-                    <input type="checkbox" id="gym-checkbox" name="gym&fitness">
-                    <label for="gym-checkbox" class="services"> Gym & Fitness</label>
-                </div>
-
-                <div class="treatments-checkbox">
-                    <input type="checkbox" id="head-checkbox" name="headtreatment">
-                    <label for="head-checkbox">Head Treatment</label>
-                    <br>
-                    <input type="checkbox" id="body-checkbox" name="bodytreatment">
-                    <label for="body-checkbox">Body Treatment</label>
-                    <br>
-                    <input type="checkbox" id="facial-checkbox" name="bodytreatment">
-                    <label for="facial-checkbox">Facial Treatment</label>
-                    <br>
-                    <input type="checkbox" id="manicure-checkbox" name="manicure-pedicure">
-                    <label for="manicure-checkbox">Manicure & pedicure</label>
-                </div>
-            </fieldset>
-
-            <fieldset>
-                <legend>Coach</legend>
-                <div>
-                    <label for="coach" class="input">Do you need a coach?</label>
-                    <input id="coach" list="coaches" name="coach">
-                    <datalist id="coaches">
-                        <option value="Wellness Coach"></option>
-                        <option value="Beauty Coach"></option>
-                        <option value="Nutrition Consulting"></option>
-                        <option value="Personal trainer"></option>
-                    </datalist>
-                </div>
-            </fieldset>
-            <input type="submit" class="book-button" value="BOOK NOW">
-        </form>
-    </section>
-    <footer>
-        <div id="contact">
-            <h2>Contact Information</h2>
-            <br>
-            <!--help from w3schools https://www.w3schools.com/tags/tag_address.asp-->
-            <h3 id="mailto"> <i class="far fa-envelope"></i><a href="mailto:contact@afyacentre.com" target="_blank">
-                    contact@afyacentre.com</a></h3>
-
-            <!--help from webhost https://www.000webhost.com/blog/make-a-phone-number-clickable-->
-            <h3 id="phone"><i class="fas fa-phone-alt"></i> <a href="tel:061245689"> 061 245 689</a>
-            </h3>
-            <br>
-        </div>
-        <div id="social-media">
-            <ul>
-                <li>
-                    <a href="https://facebook.com" target="_blank" title="facebook" rel="noopener"
-                        aria-label="visit our Facebook page (opens in a new tab)">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Afya Centre, a wellness centre for everyone in Ireland">
+        <meta name="keywords" content="wellness, well-being, centre, health, wellness centre, Ireland">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <!--=============FAVICON/sourced from stack overflow=============-->
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <title>Afya Centre</title>
+    </head>
+    <body>
+        <!--===============HEADER=============-->
+        <header id="header">
+            <!--===============HEADER LOGO=============-->
+            <a href="index.html">
+                <h1 id="logo">Afya Centre</h1>
+            </a>
+            <!--===============NAVIGATION LINKS=============-->
+            <nav>
+                <ul id="menu">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about-us.html">About us</a>
+                    </li>
+                    <li>
+                        <a href="form.html" class="active">Book now</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!--=============FORM=============-->
+        <section class="book-section">
+            <form name="booking_form" action="submit.html">
+                <h2>Let's reserve ! <i class="fas fa-heartbeat"></i></h2>
+                <fieldset>
+                    <legend>Your details</legend>
+                    <!--===== Input =====-->
+                    <div>
+                        <label for="user" class="input">Full Name:</label>
+                        <input type="text" id="user" name="fullname" required>
+                    </div>
+                    <div>
+                        <label for="email" class="input">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <!--===== Select =====-->
+                    <div class="left">
+                        <label for="gender" class="drop">Gender:</label>
+                        <select name="gender" id="gender" required>
+                            <option value="" disabled selected>Please select</option>
+                            <option value="female">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <br>
+                        <label for="age" class="drop">Age:</label>
+                        <select name="age" id="age" required>
+                            <option value="" disabled selected>Please select</option>
+                            <option value="20">Under - 20</option>
+                            <option value="20">20-29</option>
+                            <option value="30">30-39</option>
+                            <option value="40">40-49</option>
+                            <option value="50">50-59</option>
+                            <option value="60+">60+</option>
+                        </select>
+                    </div>
+                    <div class="left">
+                        <label for="day" class="drop">Day:</label>
+                        <select name="day" id="day" required>
+                            <option value="" disabled selected>Please select</option>
+                            <option value="day1">Thursday</option>
+                            <option value="day2">Friday</option>
+                            <option value="day3">Saturday</option>
+                            <option value="day4">Sunday</option>
+                        </select>
+                        <br>
+                        <label for="hours" class="drop">Hours:</label>
+                        <select name="time" id="hours" required>
+                            <option value="" disabled selected>Please select</option>
+                            <option value="time1">9am - 10am</option>
+                            <option value="time2">11am - 12pm</option>
+                            <option value="time3">1pm - 2pm</option>
+                            <option value="time4">3pm - 4pm</option>
+                            <option value="time5">5pm - 6pm</option>
+                            <option value="time6">7pm - 8pm</option>
+                        </select>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Services & Treatments</legend>
+                    <!--===== Checkboxes =====-->
+                    <div class="services-checkbox">
+                        <input type="checkbox" id="yoga-checkbox" name="yoga">
+                        <label for="yoga-checkbox" class="services">Yoga</label>
+                        <br>
+                        <input type="checkbox" id="sauna-checkbox" name="sauna">
+                        <label for="sauna-checkbox" class="services">Sauna</label>
+                        <br>
+                        <input type="checkbox" id="massage-checkbox" name="massage">
+                        <label for="massage-checkbox" class="services">Massage</label>
+                        <br>
+                        <input type="checkbox" id="gym-checkbox" name="gym&fitness">
+                        <label for="gym-checkbox" class="services"> Gym & Fitness</label>
+                    </div>
+                    <div class="treatments-checkbox">
+                        <input type="checkbox" id="head-checkbox" name="headtreatment">
+                        <label for="head-checkbox">Head Treatment</label>
+                        <br>
+                        <input type="checkbox" id="body-checkbox" name="bodytreatment">
+                        <label for="body-checkbox">Body Treatment</label>
+                        <br>
+                        <input type="checkbox" id="facial-checkbox" name="bodytreatment">
+                        <label for="facial-checkbox">Facial Treatment</label>
+                        <br>
+                        <input type="checkbox" id="manicure-checkbox" name="manicure-pedicure">
+                        <label for="manicure-checkbox">Manicure & pedicure</label>
+                    </div>
+                </fieldset>
+                <fieldset>
+                    <legend>Coach</legend>
+                    <!--===== Datalist =====-->
+                    <div>
+                        <label for="coach" class="input">Do you need a coach?</label>
+                        <input id="coach" list="coaches" name="coach">
+                        <datalist id="coaches">
+                            <option value="Wellness Coach"></option>
+                            <option value="Beauty Coach"></option>
+                            <option value="Nutrition Consulting"></option>
+                            <option value="Personal trainer"></option>
+                        </datalist>
+                    </div>
+                    <!--===== Submit button =====-->
+                </fieldset>
+                <input type="submit" class="book-button" value="BOOK NOW">
+            </form>
+        </section>
+        <!--=============FOOTER=============-->
+        <footer>
+            <div id="contact">
+                <h2>Contact Information</h2>
+                <br>
+                <!--===== Redirect to personal email address, MAILTO/sourced from w3schools =====-->
+                <h3 id="mailto"> <i class="far fa-envelope"></i><a href="mailto:contact@afyacentre.com" target="_blank">
+                    contact@afyacentre.com</a>
+                </h3>
+                <!--===== Make phone number clickable/sourced from 000webhost=====-->
+                <h3 id="phone"><i class="fas fa-phone-alt"></i> <a href="tel:061245689"> 061 245 689</a>
+                </h3>
+                <br>
+            </div>
+            <!--=============SOCIAL MEDIA LINKS================-->
+            <div id="social-media">
+                <ul>
+                    <li>
+                        <a href="https://facebook.com" target="_blank" title="facebook" rel="noopener"
+                            aria-label="visit our Facebook page (opens in a new tab)">
                         <i class="fab fa-facebook-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://twitter.com" target="_blank" title="twitter" rel="noopener"
-                        aria-label="visit our Twittter page (opens in a new tab)">
+                    </li>
+                    <li>
+                        <a href="https://twitter.com" target="_blank" title="twitter" rel="noopener"
+                            aria-label="visit our Twittter page (opens in a new tab)">
                         <i class="fab fa-twitter-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://instagram.com" target="_blank" rel="noopener"
-                        aria-label="visit our Instagram page (opens in a new tab)">
+                    </li>
+                    <li>
+                        <a href="https://instagram.com" target="_blank" rel="noopener"
+                            aria-label="visit our Instagram page (opens in a new tab)">
                         <i class="fab fa-instagram-square"></i></a>
-                </li>
-                <li>
-                    <a href="https://linkedin.com" target="_blank" rel="noopener"
-                        aria-label="visit our linkedIn page (opens in a new tab)">
+                    </li>
+                    <li>
+                        <a href="https://linkedin.com" target="_blank" rel="noopener"
+                            aria-label="visit our linkedIn page (opens in a new tab)">
                         <i class="fab fa-linkedin"></i></a>
-                </li>
-            </ul>
-        </div>
-    </footer>
-
-    <!--fonts awesome script-->
-    <script src="https://kit.fontawesome.com/a4b5e1a5a3.js" crossorigin="anonymous"></script>
-</body>
-
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <!--=============FONTS AWESOME SCRIPT=============-->
+        <script src="https://kit.fontawesome.com/a4b5e1a5a3.js" crossorigin="anonymous"></script>
+    </body>
 </html>

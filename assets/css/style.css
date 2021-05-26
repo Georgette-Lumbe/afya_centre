@@ -1,4 +1,5 @@
 /*Import*/
+
 @import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Raleway&display=swap');
 
 * {
@@ -13,9 +14,12 @@ body {
     color: #3a3a3a;
 }
 
+
 /* header */
 
+
 /* Fix and style the header/help from stack overflow*/
+
 #header {
     position: fixed;
     top: 0;
@@ -24,6 +28,7 @@ body {
     z-index: 2000;
     height: 70px;
 }
+
 
 /*Headings and logo*/
 
@@ -41,7 +46,9 @@ h2 {
     margin-left: 20px;
 }
 
+
 /*Navigation links*/
+
 #menu {
     font-size: 120%;
     text-transform: uppercase;
@@ -73,6 +80,7 @@ h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+
 /*Hero image and cover text*/
 
 #hero-outer {
@@ -95,14 +103,15 @@ h2 {
     height: 600px;
     background: url('../images/hero-image.jpg') no-repeat center center;
     background-size: cover;
-
     /* Animates zoom effect on landing page*/
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
 
+
 /* Creates the level of zoom for hero image*/
+
 @keyframes hero-zoom {
     from {
         transform: scale(1);
@@ -119,19 +128,17 @@ h2 {
     font-size: 130%;
     width: 360px;
     height: 160px;
-
     padding-top: 40px;
     padding-left: 10px;
-
     background-color: rgba(99, 161, 219, .9);
-
     bottom: 65%;
     right: 30px;
-
     position: absolute;
 }
 
+
 /*All offers section*/
+
 #offers-box {
     background-image: url('../images/offers-image.jpg');
     background-repeat: no-repeat;
@@ -155,7 +162,6 @@ h2 {
     border: 1px solid;
     font-family: Raleway, sans-serif;
     font-size: 130%;
-
 }
 
 #offers-box h2 {
@@ -187,6 +193,7 @@ h2 {
 
 
 /*Location, opening & closing hours section*/
+
 #location {
     background-image: url('../images/location-background.jpg');
     background-repeat: no-repeat;
@@ -194,7 +201,6 @@ h2 {
     background-size: cover;
     width: 100%;
     overflow: hidden;
-
     margin-bottom: 30px;
 }
 
@@ -222,6 +228,7 @@ h2 {
     color: #fafafa;
 }
 
+
 /*footer*/
 
 footer {
@@ -231,7 +238,6 @@ footer {
     padding: 1em;
     bottom: 0;
     right: 0;
-
 }
 
 #contact,
@@ -262,7 +268,9 @@ footer {
     color: #fafafa;
 }
 
+
 /* Fellowes on slack (width: fit-content, display: flex)*/
+
 #social-media {
     width: fit-content;
     margin: auto;
@@ -287,7 +295,9 @@ footer {
     color: #fafafa;
 }
 
+
 /*About Us page*/
+
 
 /*Video*/
 
@@ -306,7 +316,9 @@ iframe {
     height: 100%;
 }
 
+
 /*Text information section*/
+
 #information {
     font-family: Raleway, sans-serif;
     text-align: center;
@@ -353,7 +365,6 @@ iframe {
     padding: 20px;
 }
 
-
 .heading {
     font-size: 25px;
     margin-right: 25px;
@@ -367,7 +378,9 @@ iframe {
     color: orange;
 }
 
+
 /* Three column layout */
+
 .side {
     float: left;
     width: 15%;
@@ -380,19 +393,25 @@ iframe {
     margin-top: 10px;
 }
 
+
 /* Place text to the right */
+
 .right {
     text-align: right;
 }
 
+
 /* Clear floats after the columns */
+
 .row:after {
     content: "";
     display: table;
     clear: both;
 }
 
+
 /* The bar container */
+
 .bar-container {
     width: 100%;
     background-color: #f1f1f1;
@@ -400,7 +419,9 @@ iframe {
     color: white;
 }
 
+
 /* Individual bars */
+
 .bar-5 {
     width: 60%;
     height: 18px;
@@ -431,7 +452,9 @@ iframe {
     background-color: #f44336;
 }
 
+
 /* Individual bars */
+
 .bar-5 {
     width: 70%;
     height: 18px;
@@ -462,6 +485,7 @@ iframe {
     background-color: #f44336;
 }
 
+
 /* Coaches picture section*/
 
 #coaches h2 {
@@ -482,6 +506,7 @@ img {
     box-sizing: border-box;
 }
 
+
 /* Coaches' description*/
 
 .description {
@@ -493,6 +518,7 @@ img {
     background-color: #ffffff;
     box-sizing: border-box;
 }
+
 
 /* Book now page*/
 
@@ -539,13 +565,14 @@ input[list=coaches] {
     width: 55%;
     padding-left: 10px;
     margin: 0 auto;
-
     color: #3a3a3a;
     border: 2px solid #3a3a3a;
     background: transparent;
 }
 
+
 /*overrides css above*/
+
 input[list=coaches] {
     width: 39%;
 }
@@ -571,7 +598,6 @@ select {
     width: 40%;
     margin: 0 auto;
     padding-left: 10px;
-
     color: #3a3a3a;
     background: transparent;
     border: 2px solid #3a3a3a;
@@ -619,9 +645,7 @@ select {
     font-weight: 600;
     font-size: 100%;
     cursor: pointer;
-
     border-radius: 10px;
-
     text-align: center;
     display: inline-block;
 }
@@ -630,6 +654,7 @@ select {
     background-color: #fafafa;
     color: #38761d;
 }
+
 
 /*Thank you message*/
 
@@ -640,13 +665,15 @@ select {
     height: 275px;
     padding-top: 160px;
     background-color: rgba(99, 161, 219, .1);
-
     overflow: hidden;
 }
 
+
 /* Media queries*/
 
+
 /* Small devices (phones, 767px and down) */
+
 @media only screen and (max-width: 767px) {
 
     /*Home Page*/
@@ -676,7 +703,6 @@ select {
         font-size: 110%;
         width: 320px;
         height: 130px;
-
         padding: 10px;
     }
 
@@ -763,7 +789,6 @@ select {
     }
 
     /*Book now page*/
-
     .book-section {
         height: 920px;
         width: 100%;
@@ -812,7 +837,9 @@ select {
     }
 }
 
+
 /* Medium devices (landscape tablets, from 768px to 991px ) */
+
 @media only screen and (max-width: 991px) {
 
     /*Home Page*/
@@ -836,7 +863,6 @@ select {
     }
 
     /* About us Page */
-
     /*Book now Page*/
     .book-section {
         height: 960px;
@@ -867,7 +893,9 @@ select {
     }
 }
 
+
 /* Large devices (laptops/desktops, from 992px to 1024px) */
+
 @media only screen and (max-width: 1024px) {
 
     /* Home Page*/
@@ -892,7 +920,9 @@ select {
     }
 }
 
+
 /* Extra Large devices (laptops/desktops, from 1025px to 1599px) */
+
 @media only screen and (max-width: 1599px) {
     #cover-text {
         bottom: 350px;
@@ -902,6 +932,7 @@ select {
 
 
 /* Very Extra Large devices (laptops/desktops, 1600px and up) */
+
 @media only screen and (min-width: 1600px) {
     #cover-text {
         bottom: 520px;
