@@ -22,7 +22,7 @@
 
 4. [Testing](#testing "Goto testing")
 
-    - [Validator testing](#validator-testing "Goto validator testing")
+    - [Testing.md](TESTING.md)
 
 5. [Issues and Bugs](#issues-and-bugs "Goto issues and bugs")
 
@@ -197,13 +197,13 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 <summary>Home</summary>
 <img src="assets/docs/wireframes/homepage1.PNG" width="100%" height="50%">
 <img src="assets/docs/wireframes/homepage2.PNG" width="100%" height="50%">
-<img src="assets/ocs/wireframes/homepage3.PNG" width="100%" height="50%">
+<img src="assets/docs/wireframes/homepage3.PNG" width="100%" height="50%">
 </details>
 
 <details>
 <summary>About us</summary>
-<img src="assets/docs/screenshots/secondpage1.PNG" width="100" height="50%">
-<img src="assets/docs/screenshots/secondpage2.PNG" width="100%" height="50%">
+<img src="assets/docs/wireframes/secondpage1.PNG" width="100" height="100%">
+<img src="assets/docs/wireframes/secondpage2.PNG" width="100%" height="50%">
 <img src="assets/docs/wireframes/secondpage3.PNG" width="100%" height="50%">
 <img src="assets/docs/wireframes/secondpage4.PNG" width="100%" height="50%">
 </details>
@@ -363,32 +363,7 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
 # Testing
 
-1. Validator testing
-
-* The W3C Markup Validation Service
-<details>
- <summary>index.html</summary>
- <img src="assets/docs/screenshots/index-html.PNG" width="100%" height="50%">
- </details>
- <details>
- <summary>about-us.html</summary>
- <img src="assets/docs/screenshots/about-us-hmtl.PNG" width="100%" height="50%">
- </details>
- <details>
- <summary>form.html</summary>
- <img src="assets/docs/screenshots/form-html.PNG" width="100%" height="50%">
- </details>
- <details>
- <summary>submit.html</summary>
- <img src="assets/docs/screenshots/submit-html.PNG" width="100%" height="50%">
- </details> <br>
-
-- The W3C CSS Validation Service
- <details>
- <summary>style.css</summary>
- <img src="assets/docs/screenshots/style-css.PNG" width="100%" height="50%">
- </details>
-<br>
+Testing information can be found in a separate [testing file](testing.md)
 
 # Issues and Bugs
 
