@@ -1,6 +1,6 @@
 # AFYA CENTRE
 
-<img src="docs/screenshots/responsive.PNG" width="100%" height="25%">
+<img src="assets/docs/screenshots/responsive.PNG" width="100%" height="25%">
 
 [View the live project here](https://georgette-lumbe.github.io/afya_centre/)
 
@@ -17,7 +17,7 @@
 
 3. [Features](#features "Goto features")
 
-    - [Existing & Design Features](#existing-&-design-features "Goto existing & design features")
+    - [Existing & Design Features](#existing-and-design-features "Goto existing & design features")
     - [Features to Implement in the future](#features-to-implement-in-the-future "Goto features to implement in the future")
 
 4. [Testing](#testing "Goto testing")
@@ -29,7 +29,7 @@
 6. [Technologies Used](#technologies-used "Goto technologies used")
 
     - [Main Languages Used](#main-languages-used "Goto main languages used")
-    - [Libraries, Frameworks & Programs Used](#libraries-frameworks-&-programs-used "Goto Libraries, Frameworks & Programs Used")
+    - [Libraries, Frameworks and Programs Used](#libraries-frameworks-and-programs-used "Goto Libraries, Frameworks and Programs Used")
 
 7. [Deployment](#deployment "Goto deployment")
 
@@ -187,7 +187,7 @@ There are two categories of requirements that were defined in order to clearly i
 
 The website has been organised in a hierarchical tree structure to allow users to navigate the site easily and efficiently, with the following results:
 
-<img src="docs/screenshots/structure.PNG" width="100%" height="50%">
+<img src="assets/docs/screenshots/structure.PNG" width="100%" height="50%">
 
 ### Skeleton
 
@@ -195,22 +195,22 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
 <details>
 <summary>Home</summary>
-<img src="docs/wireframes/homepage1.PNG" width="100%" height="50%">
-<img src="docs/wireframes/homepage2.PNG" width="100%" height="50%">
-<img src="docs/wireframes/homepage3.PNG" width="100%" height="50%">
+<img src="assets/docs/wireframes/homepage1.PNG" width="100%" height="50%">
+<img src="assets/docs/wireframes/homepage2.PNG" width="100%" height="50%">
+<img src="assets/ocs/wireframes/homepage3.PNG" width="100%" height="50%">
 </details>
 
 <details>
 <summary>About us</summary>
-<img src="docs/wireframes/secondpage1.PNG" width="50%" height="50%">
-<img src="docs/wireframes/secondpage2.PNG" width="100%" height="50%">
-<img src="docs/wireframes/secondpage3.PNG" width="100%" height="50%">
-<img src="docs/wireframes/secondpage4.PNG" width="100%" height="50%">
+<img src="assets/docs/wireframes/secondpage1.PNG" width="50%" height="50%">
+<img src="assets/docs/wireframes/secondpage2.PNG" width="100%" height="50%">
+<img src="assets/docs/wireframes/secondpage3.PNG" width="100%" height="50%">
+<img src="assets/docs/wireframes/secondpage4.PNG" width="100%" height="50%">
 </details>
 
 <details>
 <summary>Book now</summary>
-<img src="docs/wireframes/thirdpage.PNG" width="100%" height="50%">
+<img src="assets/docs/wireframes/thirdpage.PNG" width="100%" height="50%">
 </details>
 
 ## Design
@@ -218,6 +218,7 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 1. Typography
 
     * A combination of [Pangolin](https://fonts.google.com/specimen/Pangolin?query=pangolin) and [Raleway](https://fonts.google.com/?query=raleway) fonts is used throughout the website, with Sans Serif as a back-up font in case of import failure.
+    * A Cursive font has been used for the signature of the Centre
     * For elements that needed to be highlighted, bold, italic, and underlined were used with the aim of emphasising these elements.
 
 2.	Colour scheme
@@ -235,7 +236,7 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
 # FEATURES
 
-## Existing & Design features
+## Existing and Design features
 
 ### HOME PAGE
 
@@ -247,13 +248,13 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
     * The header is fixed so the user can see it if he goes to the bottom of the page.
 
-<img src="docs/screenshots/header-screenshot.PNG" width="100%" height="25%">
+<img src="assets/docs/screenshots/header-screenshot.PNG" width="100%" height="25%">
 
 2. Landing page image
 
     * The landing includes an animated photograph with text overlay in the blue square to allow the user to directly see the benefits and discounts of the Afya Centre, this makes the section attractive for the user.
 
-  <img src="docs/screenshots/landing-screenshot.PNG" width="100%" height="50%">
+  <img src="assets/docs/screenshots/landing-screenshot.PNG" width="100%" height="50%">
 
 3. Services section
 
@@ -261,7 +262,7 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
     * This section is represented by three rectangular boxes of different colours (blue, green, and purple) align horizontally with a fixed background image.
 
-<img src="docs/screenshots/services-screenshot.PNG" width="100%" height="50%">
+<img src="assets/docs/screenshots/services-screenshot.PNG" width="100%" height="50%">
 
 4. Location section
 
@@ -269,7 +270,7 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
     * The where to find us section, it represented by four square boxes (three first for locals and last one for opening and closing hours) with the same background image.
 
-<img src="docs/screenshots/location-screenshot.PNG" width="100%" height="50%">
+<img src="assets/docs/screenshots/location-screenshot.PNG" width="100%" height="50%">
 
 5. Footer section
 
@@ -280,7 +281,7 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
     * This section is on every page of the website and allows customers to stay in touch with the centre via social media, email, and telephone. 
 
-<img src="docs/screenshots/footer-screenshot.PNG" width="100%" height="50%">
+<img src="assets/docs/screenshots/footer-screenshot.PNG" width="100%" height="50%">
 
 ### ABOUT US PAGE
 
@@ -288,13 +289,13 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
     * This [video](https://www.youtube.com/watch?v=e6T4eUFZMaA&t=48s) section will provide a video which shows the view of one of the service in Afya Centre and the user can see and control it all along.
 
-<img src="docs/screenshots/video-screenshot.PNG" width="100%" height="50%">
+<img src="assets/docs/screenshots/video-screenshot.PNG" width="100%" height="50%">
 
 2. Information section
 
     * This section will provide the main information about the Afya Centre such as the purpose, some details about the price, what they do and why to choose them, so the user can know more about the centre.
 
-<img src="docs/screenshots/information-screenshot.PNG" width="100%" height="50%">
+<img src="assets/docs/screenshots/information-screenshot.PNG" width="100%" height="50%">
 
 3. User rating section
 
@@ -302,7 +303,7 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
     * This section is represented by 5 rows and 3 columns with the number of stars that other users gave. It will also provide the number of users who was there.
 
-<img src="docs/screenshots/rating-screenshot.PNG" width="100%" height="50%">
+<img src="assets/docs/screenshots/rating-screenshot.PNG" width="100%" height="50%">
 
 4. Coach section 
 
@@ -310,7 +311,7 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
     * The Coach section is represented by four rectangular boxes of coaches’ pictures.
 
-<img src="docs/screenshots/coaches-screenshot.PNG" width="100%" height="50%">
+<img src="assets/docs/screenshots/coaches-screenshot.PNG" width="100%" height="50%">
 
 5. Description section
 
@@ -318,7 +319,7 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 
     * The Coach section is represented by four rectangular boxes of coaches’ names, specialities, and years of experience below the coaches' pictures.
 
-<img src="docs/screenshots/description-screenshot.PNG" width="100%" height="50%">
+<img src="assets/docs/screenshots/description-screenshot.PNG" width="100%" height="50%">
 
 ### BOOK NOW PAGE
 
@@ -333,12 +334,12 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
     * Finally, the user will be asked to book
     * This section is represented by a background-image with a background color containing text overlay and a green call-to-action button at the bottom.
 
-<img src="docs/screenshots/form-screenshot.PNG" width="100%">
+<img src="assets/docs/screenshots/form-screenshot.PNG" width="100%">
 
 ### SUBMIT PAGE
 
 1. A thank you message will be addressed to the user when he will book.
-<img src="docs/screenshots/submit-screenshot.PNG" width="100%" height="50%">
+<img src="assets/docs/screenshots/submit-screenshot.PNG" width="100%" height="50%">
 
 ## Features to implement in the future
 
@@ -367,25 +368,25 @@ Wireframe mock-ups were created in a balsamiq workspace with providing a positiv
 * The W3C Markup Validation Service
 <details>
  <summary>index.html</summary>
- <img src="docs/screenshots/index-html.PNG" width="100%" height="50%">
+ <img src="assets/docs/screenshots/index-html.PNG" width="100%" height="50%">
  </details>
  <details>
  <summary>about-us.html</summary>
- <img src="docs/screenshots/about-us-hmtl.PNG" width="100%" height="50%">
+ <img src="assets/docs/screenshots/about-us-hmtl.PNG" width="100%" height="50%">
  </details>
  <details>
  <summary>form.html</summary>
- <img src="docs/screenshots/form-html.PNG" width="100%" height="50%">
+ <img src="assets/docs/screenshots/form-html.PNG" width="100%" height="50%">
  </details>
  <details>
  <summary>submit.html</summary>
- <img src="docs/screenshots/submit-html.PNG" width="100%" height="50%">
+ <img src="assets/docs/screenshots/submit-html.PNG" width="100%" height="50%">
  </details> <br>
 
 - The W3C CSS Validation Service
  <details>
  <summary>style.css</summary>
- <img src="docs/screenshots/style-css.PNG" width="100%" height="50%">
+ <img src="assets/docs/screenshots/style-css.PNG" width="100%" height="50%">
  </details>
 <br>
 
@@ -431,7 +432,7 @@ The developer met some issues during the development of the website, below are t
     * [HTLM5](https://fr.wikipedia.org/wiki/HTML5)
     * [CSS3](https://en.wikipedia.org/wiki/CSS)
 
-2. Libraries, Framework & Programs Used
+2. Libraries, Framework and Programs Used
 
     * [Balsamiq](https://balsamiq.com/wireframes/?gclid=Cj0KCQjwna2FBhDPARIsACAEc_XbjAS__pJWBfq4NdpfXxxOVWlh4qsEro7gWthlg3GopXgZgB5PkeQaAiu-EALw_wcB) was used to create the wireframe during the design and reflective phase of the project.
     * [Google fonts](https://fonts.google.com/) was used to import the fonts “…”, “…” and “…” into the style.css file. These fonts were used all over the project.
