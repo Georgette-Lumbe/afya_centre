@@ -100,29 +100,38 @@ Manual testing was directed on the following elements that appear on every page
 ![](assets/docs/testing/links.gif)
 
 Email adrress:
+
 ![](assets/docs/testing/mail.gif)
 
 Phone number will provide a way to make the call:
+
 ![](assets/docs/testing/phone.gif)
 
 Facebook:
+
 ![](assets/docs/testing/facebook.gif)
 
 Twitter:
+
 ![](assets/docs/testing/twitter.gif)
 
 Instagram:
+
 ![](assets/docs/testing/instagram.gif)
 
 LinkedIn:
+
 ![](assets/docs/testing/linkedin.gif)
 
 ## Home Page
 
 Manual testing for the Hompe Page with all sections:
+
 ![](assets/docs/testing/home-page.gif)
 
 The responsiveness of the Home Page:
+
+
 ![](assets/docs/testing/home-responsive.gif)
 
 ## About Us Page
@@ -132,17 +141,21 @@ Manual testing for the About Us Page with all sections:
 ![](assets/docs/testing/about-us-page.gif)
 
 The responsiveness of the About us Page:
+
 ![](assets/docs/testing/about-us-responsive.gif)
 
 ## Book Now Page
 
 Manual testing for the Book Now Page:
+
 ![](assets/docs/testing/book-now-page.gif)
 
 The responsiveness of the Book now Page:
+
 ![](assets/docs/testing/book-now-responsive.gif)
 
 Once you fill the form, it will bring you to the thank you page: 
+
 ![](assets/docs/testing/thank-you-message.gif)
    
 # Automated Testing
@@ -173,22 +186,27 @@ Once you fill the form, it will bring you to the thank you page:
 ## Browser Validation
 
 1. Chrome
+
 <img src="assets/docs/screenshots/chrome.PNG" width="100%" height="100%">
 
 2. Edge
+
 <img src="assets/docs/screenshots/edge.PNG" width="100%" height="100%">
 
 3. Opera
+
 <img src="assets/docs/screenshots/opera.PNG" width="100%" height="100%">
 
 4. Firefox
+
 <img src="assets/docs/screenshots/firefox.PNG" width="100%" height="100%">
 
 ## Lighthouse Auditing
 
 *  Find the desktop and mobile full reports
+
 <details>
-<summary>Desktop<summary>
+<summary>Desktop</summary>
 <img src="assets/docs/screenshots/light-desktop1.PNG" width="100%" height="100%">
 <img src="assets/docs/screenshots/light-desktop2.PNG" width="100%" height="100%">
 <img src="assets/docs/screenshots/light-desktop3.PNG" width="100%" height="100%">
