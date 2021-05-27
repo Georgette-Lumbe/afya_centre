@@ -93,6 +93,8 @@ Manual testing was directed on the following elements that appear on every page
 
 * Hovering over the Navbar will trigger hover effect, confirming the link 
 
+![](assets/docs/testing/links-gif.mp4)
+
 # Automated Testing
 
 ## Code Validation
