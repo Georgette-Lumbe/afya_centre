@@ -171,7 +171,8 @@ Once you fill the form, it will bring you to the thank you page:
 
 ## Browser Validation
 
-1. Chrome - image
+1. Chrome
+<img src="assets/docs/screenshots/chrome.PNG" width="100%" height="100%">
 2. Edge - image
 3. Operamini - image
 4. Firefox -image
