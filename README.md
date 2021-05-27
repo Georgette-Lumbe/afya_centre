@@ -416,6 +416,8 @@ The developer met some issues during the development of the website, below are t
     * Bugs to load the workspace
     * Bugs to upload video and images
 
+10. The developer met an issue for putting text on the coaches pictures to the small screens devices.
+
 # Technologies used 
 
 ## Main Languages Used
