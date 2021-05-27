@@ -541,7 +541,7 @@ img {
 form {
     font-family: Raleway, sans-serif;
     width: 40%;
-    height: 680px;
+    height: 690px;
     padding: 30px;
     margin: 30px auto;
     background-color: rgba(168, 191, 208, .87);
@@ -701,7 +701,7 @@ select {
     #cover-text {
         bottom: -10px;
         font-size: 110%;
-        width: 320px;
+        width: 340px;
         height: 130px;
         padding: 10px;
     }
@@ -782,10 +782,6 @@ select {
 
     .fa {
         font-size: 15px;
-    }
-
-    .description {
-        display: none;
     }
 
     /*Book now page*/
@@ -934,7 +930,7 @@ select {
 /* Very Extra Large devices (laptops/desktops, 1600px and up) */
 
 @media only screen and (min-width: 1600px),
-            screen and (min-height: 940px) {
+screen and (min-height: 940px) {
     #cover-text {
         bottom: 520px;
         right: 5px;

@@ -173,9 +173,15 @@ Once you fill the form, it will bring you to the thank you page:
 
 1. Chrome
 <img src="assets/docs/screenshots/chrome.PNG" width="100%" height="100%">
-2. Edge - image
-3. Operamini - image
-4. Firefox -image
+
+2. Edge
+<img src="assets/docs/screenshots/edge.PNG" width="100%" height="100%">
+
+3. Opera
+<img src="assets/docs/screenshots/opera.PNG" width="100%" height="100%">
+
+4. Firefox
+<img src="assets/docs/screenshots/firefox.PNG" width="100%" height="100%">
 
 ## Lighthouse Auditing
 
