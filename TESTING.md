@@ -120,9 +120,10 @@ LinkedIn:
 ## Home Page
 
 Manual testing for the Hompe Page with all sections:
-![]()
+![](assets/docs/testing/home-page.gif)
 
 The responsiveness of the Home Page:
+![](assets/docs/testing/home-responsive.gif)
 
 ## About Us Page
 
@@ -130,19 +131,19 @@ Manual testing for the About Us Page with all sections:
 
 ![](assets/docs/testing/about-us-page.gif)
 
-The responsivenessof the About us Page:
-![]()
+The responsiveness of the About us Page:
+![](assets/docs/testing/about-us-responsive.gif)
 
 ## Book Now Page
 
 Manual testing for the Book Now Page:
-![]()
+![](assets/docs/testing/book-now-page.gif)
 
 The responsiveness of the Book now Page:
-![]()
+![](assets/docs/testing/book-now-responsive.gif)
 
 Once you fill the form, it will bring you to the thank you page: 
-![]()
+![](assets/docs/testing/thank-you-message.gif)
    
 # Automated Testing
 
