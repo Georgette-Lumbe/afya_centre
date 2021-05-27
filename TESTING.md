@@ -91,10 +91,59 @@
 
 Manual testing was directed on the following elements that appear on every page
 
-* Hovering over the Navbar will trigger hover effect, confirming the link 
+* Hovering over the Navbar and the logo will trigger hover effect, confirming the link.
 
-![](assets/docs/testing/links-gif.mp4)
+![](assets/docs/testing/nav.gif)
 
+* Hovering over contact information and social media links will be trigger hover effect and clicking on them will open a new tab.
+
+![](assets/docs/testing/links.gif)
+
+Email adrress:
+![](assets/docs/testing/mail.gif)
+
+Phone number will provide a way to make the call:
+![](assets/docs/testing/phone.gif)
+
+Facebook:
+![](assets/docs/testing/facebook.gif)
+
+Twitter:
+![](assets/docs/testing/twitter.gif)
+
+Instagram:
+![](assets/docs/testing/instagram.gif)
+
+LinkedIn:
+![](assets/docs/testing/linkedin.gif)
+
+## Home Page
+
+Manual testing for the Hompe Page with all sections:
+![]()
+
+The responsiveness of the Home Page:
+
+## About Us Page
+
+Manual testing for the About Us Page with all sections:
+
+![](assets/docs/testing/about-us-page.gif)
+
+The responsivenessof the About us Page:
+![]()
+
+## Book Now Page
+
+Manual testing for the Book Now Page:
+![]()
+
+The responsiveness of the Book now Page:
+![]()
+
+Once you fill the form, it will bring you to the thank you page: 
+![]()
+   
 # Automated Testing
 
 ## Code Validation
