@@ -188,13 +188,13 @@ Once you fill the form, it will bring you to the thank you page:
 *  Find the desktop and mobile full reports
 <details>
 <summary>Desktop<summary>
-<img src="assets/docs/screenshots/lighthouse-desktop1.PNG" width="100%" height="100%">
-<img src="assets/docs/screenshots/lighthouse-desktop2.PNG" width="100%" height="100%">
-<img src="assets/docs/screenshots/lighthouse-desktop3.PNG" width="100%" height="100%">
-<img src="assets/docs/screenshots/lighthouse-desktop4.PNG" width="100%" height="100%">
-<img src="assets/docs/screenshots/lighthouse-desktop5.PNG" width="100%" height="100%">
-<img src="assets/docs/screenshots/lighthouse-desktop6.PNG" width="100%" height="100%">
-<img src="assets/docs/screenshots/lighthouse-desktop7.PNG" width="100%" height="100%">
+<img src="assets/docs/screenshots/light-desktop1.PNG" width="100%" height="100%">
+<img src="assets/docs/screenshots/light-desktop2.PNG" width="100%" height="100%">
+<img src="assets/docs/screenshots/light-desktop3.PNG" width="100%" height="100%">
+<img src="assets/docs/screenshots/light-desktop4.PNG" width="100%" height="100%">
+<img src="assets/docs/screenshots/light-desktop5.PNG" width="100%" height="100%">
+<img src="assets/docs/screenshots/light-desktop6.PNG" width="100%" height="100%">
+<img src="assets/docs/screenshots/light-desktop7.PNG" width="100%" height="100%">
 </details>
 
 <details>
